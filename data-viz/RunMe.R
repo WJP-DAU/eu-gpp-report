@@ -83,6 +83,7 @@ data_points <- lapply(
 ##
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+# Calling the visualizer for each chart
 lapply(
   chart_list,
   callVisualizer
