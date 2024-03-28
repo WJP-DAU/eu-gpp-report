@@ -33,7 +33,7 @@ resetDirs <- function(){
   file.remove(prevOutputs)
 }
 
-saveIT.fn <- function(chart, n, w, h) {
+saveIT <- function(chart, n, w, h) {
   ggsave(
     plot   = chart,
     file   = file.path(
@@ -61,13 +61,20 @@ callVisualizer <- function(chart_n) {
     filter(n == chart_n) %>%
     pull(type) 
   
-  data <- data_points[[chart_n]]
+  data4chart <- data_points[[chart_n]]
   
   if (type == "Map"){
-    chart <- EUmap(
-      ...
-    )
+    chart <- genMap(data4chart)
   }
+  
+  saveIT(
+    chart = chart, 
+    n = chart_n, 
+    w = 189.7883, 
+    h = 168.7007
+  )
+
+  return(chart)
   
 }
 

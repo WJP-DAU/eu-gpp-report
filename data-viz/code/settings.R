@@ -25,7 +25,7 @@
 library(pacman)
 p_load(char = c(
   # Visualizations
-  "showtext", "ggtext", "patchwork", "cowplot",
+  "showtext", "ggtext", "patchwork", "cowplot", "flextable", "officer",
   
   # Data Loading
   "haven", "writexl", "openxlsx",
@@ -120,5 +120,10 @@ WJP_theme <- function() {
 ##
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
+map_palette <- c("0%-10%"   = "#E03849",
+                 "10%-25%"  = "#FF7900",
+                 "25%-50%"  = "#FFC818",
+                 "50%-75%"  = "#46B5FF",
+                 "75%-90%"  = "#0C75B6",
+                 "90%-100%" = "#18538E")
 

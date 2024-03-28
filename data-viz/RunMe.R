@@ -25,6 +25,7 @@
 # Loading settings and functions
 source("code/settings.R")
 source("code/functions.R")
+source("code/EUmap.R")
 
 # Loading data
 master_data <- read_dta(
@@ -82,6 +83,8 @@ data_points <- lapply(
 ##
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
-
+lapply(
+  chart_list,
+  callVisualizer
+)
 
