@@ -1,0 +1,87 @@
+## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+##
+## Script:            EU GPP Report - RunMe File
+##
+## Author(s):         Carlos A. Toruño Paniagua   (ctoruno@worldjusticeproject.org)
+##
+## Dependencies:      World Justice Project
+##
+## Creation date:     March 26th, 2024
+##
+##
+## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+##
+## Outline:                                                                                                 ----
+##
+## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+##
+## 0.  Presettings                                                                                          ----
+##
+## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Loading settings and functions
+source("code/settings.R")
+source("code/functions.R")
+
+# Loading data
+master_data <- read_dta(
+  file.path(
+    path2SP,
+    "EU Subnational/EU-S Data/eu-gpp/1. Data/3. Merge/EU_GPP_2024.dta"
+  )
+)
+
+# Loading outline
+outline <- read.xlsx(
+  "inputs/report_outline.xlsx",
+  sheet = "outline"
+)
+
+# Loading map layers
+base_map <- st_read(
+  file.path(
+    path2SP,
+    "Data Analytics/8. Data/EU-NUTS-GIS/EU_base_map.geojson"
+  )
+) %>%
+  filter(!(polID %in% c("GL")))
+
+insets <- getInsets(list(
+  "Canarias/Madeiras" = c("ES7", "PT3"),
+  "Açores"            = "PT2",
+  "Cyprus"            = "CY0"
+))
+
+map_layers <- c(
+  list("Main" = base_map), 
+  insets
+)
+
+## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+##
+## 1.  Wrangle data                                                                                         ----
+##
+## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# Creating a named list to loop over
+chart_list <- seq(1:4)
+names(chart_list) <- paste("Chart", seq(1:4))
+
+# Applying the wrangling function across charts
+data_points <- lapply(
+  chart_list,
+  wrangleData
+)
+
+## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+##
+## 2.  Create Viz                                                                                           ----
+##
+## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
