@@ -96,7 +96,7 @@ wrangleData <- function(chart_n){
     pull(topic)
   
   # Defining a transforming function
-  if (topic %in% c("Trust")) {
+  if (topic %in% c("Trust", "Freedom")) {
     trfunc <- function(value) {
       case_when(
         value <= 2 ~ 1,
