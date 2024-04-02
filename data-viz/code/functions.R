@@ -66,6 +66,9 @@ callVisualizer <- function(chart_n) {
   if (type == "Map"){
     chart <- genMap(data4chart)
   }
+  if (type == "Bar"){
+    chart <- genBar(data4chart)
+  }
   
   saveIT(
     chart = chart, 
