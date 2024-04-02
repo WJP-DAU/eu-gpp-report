@@ -1,0 +1,7 @@
+genBar <- function(dta){
+  
+  
+
+}
+
+
