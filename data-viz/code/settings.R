@@ -50,6 +50,8 @@ p_load(char = c(
 
 if (Sys.info()["user"] == "ctoruno") {
   path2SP <- "/Users/ctoruno/OneDrive - World Justice Project"
+} else if (Sys.info()["user"]=="Dhabiby"){
+  path2SP<- paste0("/Users/Dhabiby/World Justice Project")
 }
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
