@@ -49,9 +49,11 @@ p_load(char = c(
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 if (Sys.info()["user"] == "ctoruno") {
-  path2SP <- "/Users/ctoruno/OneDrive - World Justice Project"
+  path2EU <- "/Users/ctoruno/OneDrive - World Justice Project/EU Subnational"
+  path2DA <- "/Users/ctoruno/OneDrive - World Justice Project/Data Analytics"
 } else if (Sys.info()["user"]=="Dhabiby"){
-  path2SP<- paste0("/Users/Dhabiby/World Justice Project")
+  path2EU <- "/Users/Dhabiby/World Justice Project/Research - EU Subnational"
+  path2DA <- "/Users/Dhabiby/World Justice Project/Research - Data Analytics"
 }
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
