@@ -1,7 +1,7 @@
 genBar <- function(dta){
   
   # Creating bar chart
-  bar <- dta %>%
+  bars <- dta %>%
     group_by(country_name_ltn) %>%
     summarise(
       avg_value = 100*mean(value2plot, na.rm = T),
@@ -14,24 +14,33 @@ genBar <- function(dta){
     scale_fill_manual(values = c("#E03849" = "#E03849", "#FF7900" = "#FF7900", "#46B5FF" = "#46B5FF", "#0C75B6" = "#0C75B6", "#18538E" = "#18538E")) +
     scale_x_continuous(
       limits = c(0, 110),
-      breaks = seq(0, 100, by =20), 
+      breaks = seq(0, 100, by = 20), 
       expand = c(0, 0), 
       position = "top" 
     ) +
     theme(legend.position = "none")+
     scale_y_discrete(expand = expansion(add = c(0, 0.5))) +
     theme(
-      panel.background = element_rect(fill = "white"),
-      panel.grid.major.x = element_line(color = "#5e5c5a", linewidth = 0.25, linetype = "dashed"),
-      axis.ticks.length = unit(0, "mm"),
-      axis.title = element_blank(),
-      axis.line.y.left = element_line(color = "black", size = 1),
-      axis.text.y = element_text(family = "Lato Regular", color = "#222221", size = "10px"),
-      axis.text.x = element_text(family = "Lato Regular", color = "#524F4C", size = "9px", hjust = 0)
+      panel.background   = element_rect(fill      = "white"),
+      panel.grid.major.x = element_line(color     = "#5e5c5a", 
+                                        linewidth = 0.25, 
+                                        linetype  = "dashed"),
+      axis.ticks.length  = unit(0, "mm"),
+      axis.title         = element_blank(),
+      axis.line.y.left   = element_line(color = "black", 
+                                        linewidth = 1),
+      axis.text.y        = element_text(family = "Lato Full",
+                                        face   = "plain",
+                                        color  = "#222221", 
+                                        size   = 3.514598*.pt),
+      axis.text.x        = element_text(family = "Lato Full",
+                                        face   = "plain",
+                                        color  = "#524F4C", 
+                                        size   = 3.514598*.pt, 
+                                        hjust  = 0)
     )
 
-  return(bar)
+  return(bars)
 
 }
-genBar(dta)
 

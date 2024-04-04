@@ -38,7 +38,7 @@ master_data <- read_dta(
 
 # Loading outline
 outline <- read.xlsx(
-  "inputs/report_outline.xlsx",
+  "inputs/report_outline_1.xlsx",
   sheet = "outline"
 )
 
@@ -69,8 +69,8 @@ map_layers <- c(
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Creating a named list to loop over
-chart_list <- seq(1:4)
-names(chart_list) <- paste("Chart", seq(1:4))
+chart_list <- c(1:4, 88:91)
+names(chart_list) <- paste("Chart",chart_list)
 
 # Applying the wrangling function across charts
 data_points <- lapply(

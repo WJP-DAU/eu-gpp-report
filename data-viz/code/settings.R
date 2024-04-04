@@ -63,7 +63,7 @@ if (Sys.info()["user"] == "ctoruno") {
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 path2fonts<- file.path(
-  path2SP, "Data Analytics/6. Country Reports/0. Fonts", 
+  path2DA, "6. Country Reports/0. Fonts", 
   fsep = "/"
 )
 font_add(family     = "Lato Full",

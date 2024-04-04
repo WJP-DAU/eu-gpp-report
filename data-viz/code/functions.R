@@ -61,12 +61,12 @@ callVisualizer <- function(chart_n) {
     filter(n == chart_n) %>%
     pull(type) 
   
-  data4chart <- data_points[[chart_n]]
+  data4chart <- data_points[[paste("Chart", chart_n)]]
   
   if (type == "Map"){
     chart <- genMap(data4chart)
   }
-  if (type == "Bar"){
+  if (type == "Bars"){
     chart <- genBar(data4chart)
   }
   
@@ -99,7 +99,7 @@ wrangleData <- function(chart_n){
     pull(topic)
   
   # Defining a transforming function
-  if (topic %in% c("Trust", "Freedom")) {
+  if (topic %in% c("Trust", "Civic Participation B")) {
     trfunc <- function(value) {
       case_when(
         value <= 2 ~ 1,
