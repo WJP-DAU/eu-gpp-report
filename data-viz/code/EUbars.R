@@ -7,11 +7,11 @@ genBar <- function(dta){
       avg_value = 100*mean(value2plot, na.rm = T),
       .groups   = "keep"
     )%>%
-    mutate(color = cut(avg_value, breaks = c(0, 10, 25, 50, 75, 90, 1),
+    mutate(color = cut(avg_value, breaks = c(0, 10, 25, 50, 75, 90, 100),
                        labels = c("#E03849", "#FF7900", "#FFC818", "#46B5FF", "#0C75B6", "#18538E")))%>%
     ggplot()+
   geom_col(aes(avg_value, country_name_ltn, fill = color), width = 0.5) +
-    scale_fill_manual(values = c("#E03849" = "#E03849", "#FF7900" = "#FF7900", "#46B5FF" = "#46B5FF", "#0C75B6" = "#0C75B6", "#18538E" = "#18538E")) +
+    scale_fill_manual(values = c("#E03849" = "#E03849", "#FF7900" = "#FF7900", "#FFC818" = "#FFC818", "#46B5FF" = "#46B5FF", "#0C75B6" = "#0C75B6", "#18538E" = "#18538E")) +
     scale_x_continuous(
       limits = c(0, 110),
       breaks = seq(0, 100, by = 20), 
