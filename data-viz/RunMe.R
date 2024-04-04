@@ -69,7 +69,7 @@ map_layers <- c(
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Creating a named list to loop over
-chart_list <- c(1:4, 88:91)
+chart_list <- c(1:4, 9:17, 27, 30:31, 39:100, 114:116, 119:120, 129, 135:142)
 names(chart_list) <- paste("Chart",chart_list)
 
 # Applying the wrangling function across charts
