@@ -36,8 +36,8 @@ resetDirs <- function(){
 saveIT <- function(chart, n, w, h) {
   ggsave(
     plot   = chart,
-    file   = file.path(
-      "outputs", paste0("chart_", n, ".svg"),
+    file   = file.path(path2EU,
+      "EU-S Data/reports/eu-gpp-report/data-viz/outputs", paste0("chart_", n, ".svg"),
       fsep = "/"
     ), 
     width  = w, 
