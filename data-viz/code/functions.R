@@ -59,6 +59,7 @@ callVisualizer <- function(chart_n) {
   
   type <- outline %>%
     filter(n == chart_n) %>%
+    slice(1) %>%
     pull(type) 
   
   data4chart <- data_points[[paste("Chart", chart_n)]]
@@ -96,6 +97,7 @@ wrangleData <- function(chart_n){
   
   topic <- outline %>%
     filter(n == chart_n) %>%
+    slice(1) %>%
     pull(topic)
   
   # Defining a transforming function
@@ -106,20 +108,28 @@ wrangleData <- function(chart_n){
         value <= 4 ~ 0
       )
     }
+  } 
+  if (topic %in% c("Information and Advice")) {
+    trfunc <- function(value) {
+      case_when(
+        value == 1 ~ 1,
+        value == 2 ~ 0
+      )
+    }
   }
   
   # Creating data2plot
   data2plot <- master_data %>%
-    select(country_name_ltn, nuts_id, target = all_of(id)) %>%
+    select(country_name_ltn, nuts_id, all_of(id)) %>%
     mutate(
       across(
-        target,
+        all_of(id),
         ~trfunc(.x)
       )
     ) %>%
     group_by(country_name_ltn, nuts_id) %>%
     summarise(
-      value2plot = mean(target, na.rm = T),
+      value2plot = mean(c_across(all_of(id)), na.rm = T),
       .groups = "keep"
     )
   
