@@ -101,15 +101,45 @@ wrangleData <- function(chart_n){
     pull(topic)
   
   # Defining a transforming function
-  if (topic %in% c("Trust", "Civic Participation B")) {
+  if (topic %in% c("Trust", 
+                   "Security", 
+                   "Law Enforcement Performance", 
+                   "Criminal Justice Performance",
+                   "Law Enforcement Performance", 
+                   "Perceptions on Authoritarian Behavior", 
+                   "Justice System Evaluation",
+                   "Civic Participation A",
+                   "Civic Participation B",
+                   "Opinions regarding Corruption",
+                   "Information Provision",
+                   "Information Requests")) {
     trfunc <- function(value) {
       case_when(
         value <= 2 ~ 1,
         value <= 4 ~ 0
       )
     }
-  } 
-  if (topic %in% c("Information and Advice")) {
+  }
+  if (topic %in% c("Corruption Change")) {
+    trfunc <- function(value) {
+      case_when(
+        value <= 2 ~ 1,
+        value <= 5 ~ 0
+      )
+    }
+  }
+  if (topic %in% c("Corruption Perceptions",
+                   "Bribe Victimization")) {
+    trfunc <- function(value) {
+      case_when(
+        value <= 2 ~ 0,
+        value <= 4 ~ 1
+      )
+    }
+  }
+  if (topic %in% c("Security Violence",
+                   "Civic Participation A Civic Participation B",
+                   "Discrimination")) {
     trfunc <- function(value) {
       case_when(
         value == 1 ~ 1,
