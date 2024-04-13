@@ -1,21 +1,23 @@
 genBar <- function(dta){
   
-  # Creating bar chart
   bars <- dta %>%
     group_by(country_name_ltn) %>%
     summarise(
       avg_value = 100*mean(value2plot, na.rm = T),
       .groups   = "keep"
     )%>%
-    mutate(color = cut(avg_value, breaks = c(0, 10, 25, 50, 75, 90, 100),
-                       labels = c("#E03849", "#FF7900", "#FFC818", "#46B5FF", "#0C75B6", "#18538E")))%>%
+    mutate(
+      color = cut(avg_value, 
+                  breaks = c(0, 10, 25, 50, 75, 90, 100),
+                  labels = c("0%-10%", "10%-25%", "25%-50%", "50%-75%", "75%-90%", "90%-100%"))
+    )%>%
     ggplot()+
   geom_col(aes(avg_value, country_name_ltn, fill = color), width = 0.5) +
-    scale_fill_manual(values = c("#E03849" = "#E03849", "#FF7900" = "#FF7900", "#FFC818" = "#FFC818", "#46B5FF" = "#46B5FF", "#0C75B6" = "#0C75B6", "#18538E" = "#18538E")) +
+    scale_fill_manual(values = cat_palette) +
     scale_x_continuous(
-      limits = c(0, 110),
-      breaks = seq(0, 100, by = 20), 
-      expand = c(0, 0), 
+      limits   = c(0, 110),
+      breaks   = seq(0, 100, by = 20), 
+      expand   = c(0, 0), 
       position = "top" 
     ) +
     theme(legend.position = "none")+

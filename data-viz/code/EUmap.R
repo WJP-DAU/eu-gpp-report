@@ -100,7 +100,7 @@ genMap <- function(dta){
                 fill  = NA,
                 color = "grey25") +
         scale_fill_manual("",
-                          values   = map_palette,
+                          values   = cat_palette,
                           na.value = "grey95",
                           drop = F)
       

@@ -62,6 +62,12 @@ map_layers <- c(
   insets
 )
 
+# Loading region names
+region_names <- read.xlsx(
+  "inputs/region_labels.xlsx"
+) %>%
+  select(nuts_id, nameSHORT)
+
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##
 ## 1.  Wrangle data                                                                                         ----
