@@ -70,6 +70,9 @@ callVisualizer <- function(chart_n) {
   if (type == "Bars"){
     chart <- genBar(data4chart)
   }
+  if (type == "Lollipop"){
+    chart <- genLollipop(data4chart)
+  }
   
   saveIT(
     chart = chart, 

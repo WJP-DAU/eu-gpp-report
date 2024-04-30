@@ -27,6 +27,7 @@ source("code/settings.R")
 source("code/functions.R")
 source("code/EUmap.R")
 source("code/EUbars.R")
+source("code/EUlollipop.R")
 
 # Loading data
 master_data <- read_dta(
@@ -75,7 +76,7 @@ region_names <- read.xlsx(
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Creating a named list to loop over
-chart_list <- c(1:4, 9:17, 30:31, 39:100, 114:116, 119:120, 129, 135:142)
+chart_list <- c(1:17, 30:111, 113:142)
 names(chart_list) <- paste("Chart",chart_list)
 
 # Applying the wrangling function across charts
@@ -83,6 +84,21 @@ data_points <- lapply(
   chart_list,
   wrangleData
 )
+
+# Collapsing and saving data points data
+data_points_df <- bind_rows(
+  imap(
+    data_points,
+    function(df, chart_n){
+      df %>%
+        mutate(
+          chart = str_replace(chart_n, "Chart ", "")
+        )
+    }
+  )
+)
+write_csv(data_points_df, "data_points.csv")
+
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##
