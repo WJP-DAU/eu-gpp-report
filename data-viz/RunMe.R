@@ -67,7 +67,7 @@ map_layers <- c(
 region_names <- read.xlsx(
   "inputs/region_labels.xlsx"
 ) %>%
-  select(nuts_id, nameSHORT)
+  select(nuts_id, nameSHORT, pop_weight = regionpoppct)
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##
