@@ -11831,516 +11831,516 @@ Spain,regional,ES7,Canary Islands,129,0.3313373253493014
 Sweden,regional,SE1,Eastern Sweden,129,0.13027522935779817
 Sweden,regional,SE2,Southern Sweden,129,0.162
 Sweden,regional,SE3,Northern Sweden,129,0.16568047337278108
-Austria,regional,AT1,East Austria,130,0
-Austria,regional,AT2,South Austria,130,0
-Austria,regional,AT3,West Austria,130,0
-Belgium,regional,BE1,Brussels Region,130,0
-Belgium,regional,BE2,Flemish Region,130,0
-Belgium,regional,BE3,Waloon Region,130,0
-Bulgaria,regional,BG3,North and South-East,130,0
-Bulgaria,regional,BG4,South -West/-Central,130,0
-Croatia,regional,HR02,Pannonian Croatia,130,0
-Croatia,regional,HR03,Adriatic Croatia,130,0
-Croatia,regional,HR05,Zagreb,130,0
-Croatia,regional,HR06,Northern Croatia,130,0
-Cyprus,regional,CY0,Cyprus,130,0
-Czechia,regional,CZ01,Prague,130,0
-Czechia,regional,CZ02,Central Bohemia,130,0
-Czechia,regional,CZ03,South-West,130,0
-Czechia,regional,CZ04,North-West,130,0
-Czechia,regional,CZ05,North-East,130,0
-Czechia,regional,CZ06,South-East,130,0
-Czechia,regional,CZ07,Central Moravia,130,0
-Czechia,regional,CZ08,Moravian Silesia,130,0
-Denmark,regional,DK01,Capital (region),130,0
-Denmark,regional,DK02,Zealand,130,0
-Denmark,regional,DK03,South Denmark,130,0
-Denmark,regional,DK04,Central Jutland,130,0
-Denmark,regional,DK05,North Jutland,130,0
-Estonia,regional,EE0,Estonia,130,0
-Finland,regional,FI19,West Finland,130,0
-Finland,regional,FI1B,Helsinki-Uusimaa,130,0
-Finland,regional,FI1C,South Finland,130,0
-Finland,regional,FI1D,North and East Finland,130,0
-France,regional,FR1,Île-de-France,130,0
-France,regional,FRB,Centre-Val de Loire,130,0
-France,regional,FRC,Burgundy-Franche-Comté,130,0
-France,regional,FRD,Normandy,130,0
-France,regional,FRE,Hauts-de-France,130,0
-France,regional,FRF,Grand Est,130,0
-France,regional,FRG,Loire Region,130,0
-France,regional,FRH,Brittany ,130,0
-France,regional,FRI,New Aquitaine,130,0
-France,regional,FRJ,Occitania,130,0
-France,regional,FRK,Auvergne-Rhône-Alpes,130,0
-France,regional,FRL,PACA,130,0
-France,regional,FRM,Corsica ,130,0
-Germany,regional,DE1,Baden-Württemberg,130,0
-Germany,regional,DE2,Bavaria,130,0
-Germany,regional,DE3,Berlin,130,0
-Germany,regional,DE4,Brandenburg,130,0
-Germany,regional,DE5,Bremen,130,0
-Germany,regional,DE6,Hamburg,130,0
-Germany,regional,DE7,Hessen,130,0
-Germany,regional,DE8,Mecklenburg-Vorpommern,130,0
-Germany,regional,DE9,Lower Saxony,130,0
-Germany,regional,DEA,North Rhine-Westphalia,130,0
-Germany,regional,DEB,Rhineland-Palatinate,130,0
-Germany,regional,DEC,Saarland,130,0
-Germany,regional,DED,Saxony,130,0
-Germany,regional,DEE,Saxony-Anhalt,130,0
-Germany,regional,DEF,Schleswig-Holstein,130,0
-Germany,regional,DEG,Thuringia,130,0
-Greece,regional,EL3,Attica,130,0
-Greece,regional,EL4,"Aegean Islands, Crete",130,0
-Greece,regional,EL5,North Greece,130,0
-Greece,regional,EL6,Central Greece,130,0
-Hungary,regional,HU1,Central Hungary,130,0
-Hungary,regional,HU2,Transdanubia ,130,0
-Hungary,regional,HU3,Great Plain and North,130,0
-Ireland,regional,IE04,Northern and Western,130,0
-Ireland,regional,IE05,Southern,130,0
-Ireland,regional,IE06,Eastern and Midland,130,0
-Italy,regional,ITC,North-West,130,0
-Italy,regional,ITF,South,130,0
-Italy,regional,ITG,Islands,130,0
-Italy,regional,ITH,North-East,130,0
-Italy,regional,ITI,Centre,130,0
-Lithuania,regional,LT01,Capital Region,130,0
-Lithuania,regional,LT02,Central/Western Region,130,0
-Luxembourg,regional,LU00,Luxembourg,130,0
-Malta,regional,MT00,Malta,130,0
-Netherlands,regional,NL1,North Netherlands,130,0
-Netherlands,regional,NL2,East Netherlands,130,0
-Netherlands,regional,NL3,West Netherlands,130,0
-Netherlands,regional,NL4,South Netherlands,130,0
-Portugal,regional,PT1,Continental Portugal,130,0
-Portugal,regional,PT2,Azores,130,0
-Portugal,regional,PT3,Madeira,130,0
-Slovakia,regional,SK01,Bratislava,130,0
-Slovakia,regional,SK02,West Slovakia,130,0
-Slovakia,regional,SK03,Central Slovakia,130,0
-Slovakia,regional,SK04,East Slovakia,130,0
-Slovenia,regional,SI03,East Slovenia,130,0
-Slovenia,regional,SI04,West Slovenia,130,0
-Spain,regional,ES1,North-West,130,0
-Spain,regional,ES2,North-East,130,0
-Spain,regional,ES3,Madrid,130,0
-Spain,regional,ES4,Centre,130,0
-Spain,regional,ES5,East,130,0
-Spain,regional,ES6,South,130,0
-Spain,regional,ES7,Canary Islands,130,0
-Sweden,regional,SE1,Eastern Sweden,130,0
-Sweden,regional,SE2,Southern Sweden,130,0
-Sweden,regional,SE3,Northern Sweden,130,0
-Austria,regional,AT1,East Austria,131,0
-Austria,regional,AT2,South Austria,131,0
-Austria,regional,AT3,West Austria,131,0
-Belgium,regional,BE1,Brussels Region,131,0
-Belgium,regional,BE2,Flemish Region,131,0
-Belgium,regional,BE3,Waloon Region,131,0
-Bulgaria,regional,BG3,North and South-East,131,0
-Bulgaria,regional,BG4,South -West/-Central,131,0
-Croatia,regional,HR02,Pannonian Croatia,131,0
-Croatia,regional,HR03,Adriatic Croatia,131,0
-Croatia,regional,HR05,Zagreb,131,0
-Croatia,regional,HR06,Northern Croatia,131,0
-Cyprus,regional,CY0,Cyprus,131,0
-Czechia,regional,CZ01,Prague,131,0
-Czechia,regional,CZ02,Central Bohemia,131,0
-Czechia,regional,CZ03,South-West,131,0
-Czechia,regional,CZ04,North-West,131,0
-Czechia,regional,CZ05,North-East,131,0
-Czechia,regional,CZ06,South-East,131,0
-Czechia,regional,CZ07,Central Moravia,131,0
-Czechia,regional,CZ08,Moravian Silesia,131,0
-Denmark,regional,DK01,Capital (region),131,0
-Denmark,regional,DK02,Zealand,131,0
-Denmark,regional,DK03,South Denmark,131,0
-Denmark,regional,DK04,Central Jutland,131,0
-Denmark,regional,DK05,North Jutland,131,0
-Estonia,regional,EE0,Estonia,131,0
-Finland,regional,FI19,West Finland,131,0
-Finland,regional,FI1B,Helsinki-Uusimaa,131,0
-Finland,regional,FI1C,South Finland,131,0
-Finland,regional,FI1D,North and East Finland,131,0
-France,regional,FR1,Île-de-France,131,0
-France,regional,FRB,Centre-Val de Loire,131,0
-France,regional,FRC,Burgundy-Franche-Comté,131,0
-France,regional,FRD,Normandy,131,0
-France,regional,FRE,Hauts-de-France,131,0
-France,regional,FRF,Grand Est,131,0
-France,regional,FRG,Loire Region,131,0
-France,regional,FRH,Brittany ,131,0
-France,regional,FRI,New Aquitaine,131,0
-France,regional,FRJ,Occitania,131,0
-France,regional,FRK,Auvergne-Rhône-Alpes,131,0
-France,regional,FRL,PACA,131,0
-France,regional,FRM,Corsica ,131,0
-Germany,regional,DE1,Baden-Württemberg,131,0
-Germany,regional,DE2,Bavaria,131,0
-Germany,regional,DE3,Berlin,131,0
-Germany,regional,DE4,Brandenburg,131,0
-Germany,regional,DE5,Bremen,131,0
-Germany,regional,DE6,Hamburg,131,0
-Germany,regional,DE7,Hessen,131,0
-Germany,regional,DE8,Mecklenburg-Vorpommern,131,0
-Germany,regional,DE9,Lower Saxony,131,0
-Germany,regional,DEA,North Rhine-Westphalia,131,0
-Germany,regional,DEB,Rhineland-Palatinate,131,0
-Germany,regional,DEC,Saarland,131,0
-Germany,regional,DED,Saxony,131,0
-Germany,regional,DEE,Saxony-Anhalt,131,0
-Germany,regional,DEF,Schleswig-Holstein,131,0
-Germany,regional,DEG,Thuringia,131,0
+Austria,regional,AT1,East Austria,130,0.02857142857142857
+Austria,regional,AT2,South Austria,130,0.02544529262086514
+Austria,regional,AT3,West Austria,130,0.020618556701030927
+Belgium,regional,BE1,Brussels Region,130,0.19444444444444445
+Belgium,regional,BE2,Flemish Region,130,0.030303030303030304
+Belgium,regional,BE3,Waloon Region,130,0.05555555555555555
+Bulgaria,regional,BG3,North and South-East,130,0.3076923076923077
+Bulgaria,regional,BG4,South -West/-Central,130,0.24271844660194175
+Croatia,regional,HR02,Pannonian Croatia,130,0.09174311926605505
+Croatia,regional,HR03,Adriatic Croatia,130,0.21666666666666667
+Croatia,regional,HR05,Zagreb,130,0.13131313131313133
+Croatia,regional,HR06,Northern Croatia,130,0.13541666666666666
+Cyprus,regional,CY0,Cyprus,130,0.05154639175257732
+Czechia,regional,CZ01,Prague,130,0.02877697841726619
+Czechia,regional,CZ02,Central Bohemia,130,0.06622516556291391
+Czechia,regional,CZ03,South-West,130,0.05303030303030303
+Czechia,regional,CZ04,North-West,130,0.0859375
+Czechia,regional,CZ05,North-East,130,0.0472972972972973
+Czechia,regional,CZ06,South-East,130,0.05517241379310345
+Czechia,regional,CZ07,Central Moravia,130,0.08633093525179857
+Czechia,regional,CZ08,Moravian Silesia,130,0.06382978723404255
+Denmark,regional,DK01,Capital (region),130,0.2857142857142857
+Denmark,regional,DK02,Zealand,130,0.10526315789473684
+Denmark,regional,DK03,South Denmark,130,0.11538461538461539
+Denmark,regional,DK04,Central Jutland,130,0.21666666666666667
+Denmark,regional,DK05,North Jutland,130,0.0625
+Estonia,regional,EE0,Estonia,130,0.055299539170506916
+Finland,regional,FI19,West Finland,130,0.02830188679245283
+Finland,regional,FI1B,Helsinki-Uusimaa,130,0.056338028169014086
+Finland,regional,FI1C,South Finland,130,0.07368421052631578
+Finland,regional,FI1D,North and East Finland,130,0.022727272727272728
+France,regional,FR1,Île-de-France,130,0.3076923076923077
+France,regional,FRB,Centre-Val de Loire,130,0.12658227848101267
+France,regional,FRC,Burgundy-Franche-Comté,130,0.11267605633802817
+France,regional,FRD,Normandy,130,0.15492957746478872
+France,regional,FRE,Hauts-de-France,130,0.14925373134328357
+France,regional,FRF,Grand Est,130,0.0958904109589041
+France,regional,FRG,Loire Region,130,0.05714285714285714
+France,regional,FRH,Brittany ,130,0.09836065573770492
+France,regional,FRI,New Aquitaine,130,0.09302325581395349
+France,regional,FRJ,Occitania,130,0.17647058823529413
+France,regional,FRK,Auvergne-Rhône-Alpes,130,0.1206896551724138
+France,regional,FRL,PACA,130,0.21666666666666667
+France,regional,FRM,Corsica ,130,0.2727272727272727
+Germany,regional,DE1,Baden-Württemberg,130,0.03515625
+Germany,regional,DE2,Bavaria,130,0.011235955056179775
+Germany,regional,DE3,Berlin,130,0.08333333333333333
+Germany,regional,DE4,Brandenburg,130,0.011857707509881422
+Germany,regional,DE5,Bremen,130,0.013245033112582781
+Germany,regional,DE6,Hamburg,130,0.06097560975609756
+Germany,regional,DE7,Hessen,130,0.072992700729927
+Germany,regional,DE8,Mecklenburg-Vorpommern,130,0.012244897959183673
+Germany,regional,DE9,Lower Saxony,130,0.025423728813559324
+Germany,regional,DEA,North Rhine-Westphalia,130,0.02066115702479339
+Germany,regional,DEB,Rhineland-Palatinate,130,0.019762845849802372
+Germany,regional,DEC,Saarland,130,0.038461538461538464
+Germany,regional,DED,Saxony,130,0.03717472118959108
+Germany,regional,DEE,Saxony-Anhalt,130,0.012711864406779662
+Germany,regional,DEF,Schleswig-Holstein,130,0.007168458781362007
+Germany,regional,DEG,Thuringia,130,0.01639344262295082
+Greece,regional,EL3,Attica,130,0.11290322580645161
+Greece,regional,EL4,"Aegean Islands, Crete",130,0.2
+Greece,regional,EL5,North Greece,130,0.04
+Greece,regional,EL6,Central Greece,130,0.14285714285714285
+Hungary,regional,HU1,Central Hungary,130,0.06474820143884892
+Hungary,regional,HU2,Transdanubia ,130,0.05555555555555555
+Hungary,regional,HU3,Great Plain and North,130,0.07567567567567568
+Ireland,regional,IE04,Northern and Western,130,0.11956521739130435
+Ireland,regional,IE05,Southern,130,0.031746031746031744
+Ireland,regional,IE06,Eastern and Midland,130,0.08695652173913043
+Italy,regional,ITC,North-West,130,0.05185185185185185
+Italy,regional,ITF,South,130,0.10135135135135136
+Italy,regional,ITG,Islands,130,0.09375
+Italy,regional,ITH,North-East,130,0.07784431137724551
+Italy,regional,ITI,Centre,130,0.09615384615384616
+Lithuania,regional,LT01,Capital Region,130,0.03007518796992481
+Lithuania,regional,LT02,Central/Western Region,130,0.04132231404958678
+Luxembourg,regional,LU00,Luxembourg,130,0.01904761904761905
+Malta,regional,MT00,Malta,130,0.07766990291262135
+Netherlands,regional,NL1,North Netherlands,130,0.12264150943396226
+Netherlands,regional,NL2,East Netherlands,130,0.13043478260869565
+Netherlands,regional,NL3,West Netherlands,130,0.0898876404494382
+Netherlands,regional,NL4,South Netherlands,130,0.09565217391304348
+Portugal,regional,PT1,Continental Portugal,130,0.07692307692307693
+Portugal,regional,PT2,Azores,130,0.06896551724137931
+Portugal,regional,PT3,Madeira,130,0.012048192771084338
+Slovakia,regional,SK01,Bratislava,130,0.06956521739130435
+Slovakia,regional,SK02,West Slovakia,130,0.0718954248366013
+Slovakia,regional,SK03,Central Slovakia,130,0.07514450867052024
+Slovakia,regional,SK04,East Slovakia,130,0.1907514450867052
+Slovenia,regional,SI03,East Slovenia,130,0.2265625
+Slovenia,regional,SI04,West Slovenia,130,0.10185185185185185
+Spain,regional,ES1,North-West,130,0.09219858156028368
+Spain,regional,ES2,North-East,130,0.09859154929577464
+Spain,regional,ES3,Madrid,130,0.11926605504587157
+Spain,regional,ES4,Centre,130,0.07042253521126761
+Spain,regional,ES5,East,130,0.0847457627118644
+Spain,regional,ES6,South,130,0.12605042016806722
+Spain,regional,ES7,Canary Islands,130,0.10077519379844961
+Sweden,regional,SE1,Eastern Sweden,130,0.08571428571428572
+Sweden,regional,SE2,Southern Sweden,130,0.0380952380952381
+Sweden,regional,SE3,Northern Sweden,130,0.06422018348623854
+Austria,regional,AT1,East Austria,131,0.023668639053254437
+Austria,regional,AT2,South Austria,131,0.016233766233766232
+Austria,regional,AT3,West Austria,131,0.03125
+Belgium,regional,BE1,Brussels Region,131,0.14173228346456693
+Belgium,regional,BE2,Flemish Region,131,0.0136986301369863
+Belgium,regional,BE3,Waloon Region,131,0.04807692307692308
+Bulgaria,regional,BG3,North and South-East,131,0.17525773195876287
+Bulgaria,regional,BG4,South -West/-Central,131,0.1
+Croatia,regional,HR02,Pannonian Croatia,131,0.0963855421686747
+Croatia,regional,HR03,Adriatic Croatia,131,0.11363636363636363
+Croatia,regional,HR05,Zagreb,131,0.11392405063291139
+Croatia,regional,HR06,Northern Croatia,131,0.07246376811594203
+Cyprus,regional,CY0,Cyprus,131,0.0392156862745098
+Czechia,regional,CZ01,Prague,131,0.03508771929824561
+Czechia,regional,CZ02,Central Bohemia,131,0.05714285714285714
+Czechia,regional,CZ03,South-West,131,0.04838709677419355
+Czechia,regional,CZ04,North-West,131,0.07407407407407407
+Czechia,regional,CZ05,North-East,131,0.08064516129032258
+Czechia,regional,CZ06,South-East,131,0.06779661016949153
+Czechia,regional,CZ07,Central Moravia,131,0.08450704225352113
+Czechia,regional,CZ08,Moravian Silesia,131,0.0625
+Denmark,regional,DK01,Capital (region),131,0.11347517730496454
+Denmark,regional,DK02,Zealand,131,0.027210884353741496
+Denmark,regional,DK03,South Denmark,131,0.042682926829268296
+Denmark,regional,DK04,Central Jutland,131,0.05
+Denmark,regional,DK05,North Jutland,131,0.04195804195804196
+Estonia,regional,EE0,Estonia,131,0.04472843450479233
+Finland,regional,FI19,West Finland,131,0.01893939393939394
+Finland,regional,FI1B,Helsinki-Uusimaa,131,0.00881057268722467
+Finland,regional,FI1C,South Finland,131,0.023076923076923078
+Finland,regional,FI1D,North and East Finland,131,0.009433962264150943
+France,regional,FR1,Île-de-France,131,0.23333333333333334
+France,regional,FRB,Centre-Val de Loire,131,0.140625
+France,regional,FRC,Burgundy-Franche-Comté,131,0.1320754716981132
+France,regional,FRD,Normandy,131,0.14035087719298245
+France,regional,FRE,Hauts-de-France,131,0.20408163265306123
+France,regional,FRF,Grand Est,131,0.13725490196078433
+France,regional,FRG,Loire Region,131,0.14634146341463414
+France,regional,FRH,Brittany ,131,0.14705882352941177
+France,regional,FRI,New Aquitaine,131,0.14285714285714285
+France,regional,FRJ,Occitania,131,0.18
+France,regional,FRK,Auvergne-Rhône-Alpes,131,0.15555555555555556
+France,regional,FRL,PACA,131,0.16666666666666666
+France,regional,FRM,Corsica ,131,0.20833333333333334
+Germany,regional,DE1,Baden-Württemberg,131,0.02702702702702703
+Germany,regional,DE2,Bavaria,131,0.015957446808510637
+Germany,regional,DE3,Berlin,131,0.08854166666666667
+Germany,regional,DE4,Brandenburg,131,0.016666666666666666
+Germany,regional,DE5,Bremen,131,0.02564102564102564
+Germany,regional,DE6,Hamburg,131,0.049723756906077346
+Germany,regional,DE7,Hessen,131,0.06043956043956044
+Germany,regional,DE8,Mecklenburg-Vorpommern,131,0.015384615384615385
+Germany,regional,DE9,Lower Saxony,131,0.025380710659898477
+Germany,regional,DEA,North Rhine-Westphalia,131,0.027777777777777776
+Germany,regional,DEB,Rhineland-Palatinate,131,0.01098901098901099
+Germany,regional,DEC,Saarland,131,0.0053475935828877
+Germany,regional,DED,Saxony,131,0.034653465346534656
+Germany,regional,DEE,Saxony-Anhalt,131,0.016483516483516484
+Germany,regional,DEF,Schleswig-Holstein,131,0.010309278350515464
+Germany,regional,DEG,Thuringia,131,0.02631578947368421
 Greece,regional,EL3,Attica,131,0
-Greece,regional,EL4,"Aegean Islands, Crete",131,0
+Greece,regional,EL4,"Aegean Islands, Crete",131,0.23333333333333334
 Greece,regional,EL5,North Greece,131,0
-Greece,regional,EL6,Central Greece,131,0
-Hungary,regional,HU1,Central Hungary,131,0
-Hungary,regional,HU2,Transdanubia ,131,0
-Hungary,regional,HU3,Great Plain and North,131,0
-Ireland,regional,IE04,Northern and Western,131,0
-Ireland,regional,IE05,Southern,131,0
-Ireland,regional,IE06,Eastern and Midland,131,0
-Italy,regional,ITC,North-West,131,0
-Italy,regional,ITF,South,131,0
-Italy,regional,ITG,Islands,131,0
-Italy,regional,ITH,North-East,131,0
-Italy,regional,ITI,Centre,131,0
-Lithuania,regional,LT01,Capital Region,131,0
-Lithuania,regional,LT02,Central/Western Region,131,0
-Luxembourg,regional,LU00,Luxembourg,131,0
-Malta,regional,MT00,Malta,131,0
-Netherlands,regional,NL1,North Netherlands,131,0
-Netherlands,regional,NL2,East Netherlands,131,0
-Netherlands,regional,NL3,West Netherlands,131,0
-Netherlands,regional,NL4,South Netherlands,131,0
+Greece,regional,EL6,Central Greece,131,0.03571428571428571
+Hungary,regional,HU1,Central Hungary,131,0.07874015748031496
+Hungary,regional,HU2,Transdanubia ,131,0.06542056074766354
+Hungary,regional,HU3,Great Plain and North,131,0.08762886597938144
+Ireland,regional,IE04,Northern and Western,131,0.06451612903225806
+Ireland,regional,IE05,Southern,131,0.03007518796992481
+Ireland,regional,IE06,Eastern and Midland,131,0.08029197080291971
+Italy,regional,ITC,North-West,131,0.04390243902439024
+Italy,regional,ITF,South,131,0.10497237569060773
+Italy,regional,ITG,Islands,131,0.08717948717948718
+Italy,regional,ITH,North-East,131,0.04
+Italy,regional,ITI,Centre,131,0.0593607305936073
+Lithuania,regional,LT01,Capital Region,131,0.015151515151515152
+Lithuania,regional,LT02,Central/Western Region,131,0.017064846416382253
+Luxembourg,regional,LU00,Luxembourg,131,0.012903225806451613
+Malta,regional,MT00,Malta,131,0.05194805194805195
+Netherlands,regional,NL1,North Netherlands,131,0.03571428571428571
+Netherlands,regional,NL2,East Netherlands,131,0.04878048780487805
+Netherlands,regional,NL3,West Netherlands,131,0.05421686746987952
+Netherlands,regional,NL4,South Netherlands,131,0.059782608695652176
 Portugal,regional,PT1,Continental Portugal,131,0
-Portugal,regional,PT2,Azores,131,0
-Portugal,regional,PT3,Madeira,131,0
-Slovakia,regional,SK01,Bratislava,131,0
-Slovakia,regional,SK02,West Slovakia,131,0
-Slovakia,regional,SK03,Central Slovakia,131,0
-Slovakia,regional,SK04,East Slovakia,131,0
-Slovenia,regional,SI03,East Slovenia,131,0
-Slovenia,regional,SI04,West Slovenia,131,0
-Spain,regional,ES1,North-West,131,0
-Spain,regional,ES2,North-East,131,0
-Spain,regional,ES3,Madrid,131,0
-Spain,regional,ES4,Centre,131,0
-Spain,regional,ES5,East,131,0
-Spain,regional,ES6,South,131,0
-Spain,regional,ES7,Canary Islands,131,0
-Sweden,regional,SE1,Eastern Sweden,131,0
-Sweden,regional,SE2,Southern Sweden,131,0
-Sweden,regional,SE3,Northern Sweden,131,0
-Austria,regional,AT1,East Austria,132,0
-Austria,regional,AT2,South Austria,132,0
-Austria,regional,AT3,West Austria,132,0
-Belgium,regional,BE1,Brussels Region,132,0
-Belgium,regional,BE2,Flemish Region,132,0
-Belgium,regional,BE3,Waloon Region,132,0
-Bulgaria,regional,BG3,North and South-East,132,0
-Bulgaria,regional,BG4,South -West/-Central,132,0
-Croatia,regional,HR02,Pannonian Croatia,132,0
-Croatia,regional,HR03,Adriatic Croatia,132,0
-Croatia,regional,HR05,Zagreb,132,0
-Croatia,regional,HR06,Northern Croatia,132,0
-Cyprus,regional,CY0,Cyprus,132,0
-Czechia,regional,CZ01,Prague,132,0
-Czechia,regional,CZ02,Central Bohemia,132,0
-Czechia,regional,CZ03,South-West,132,0
-Czechia,regional,CZ04,North-West,132,0
-Czechia,regional,CZ05,North-East,132,0
-Czechia,regional,CZ06,South-East,132,0
-Czechia,regional,CZ07,Central Moravia,132,0
-Czechia,regional,CZ08,Moravian Silesia,132,0
-Denmark,regional,DK01,Capital (region),132,0
-Denmark,regional,DK02,Zealand,132,0
-Denmark,regional,DK03,South Denmark,132,0
-Denmark,regional,DK04,Central Jutland,132,0
-Denmark,regional,DK05,North Jutland,132,0
-Estonia,regional,EE0,Estonia,132,0
-Finland,regional,FI19,West Finland,132,0
-Finland,regional,FI1B,Helsinki-Uusimaa,132,0
-Finland,regional,FI1C,South Finland,132,0
-Finland,regional,FI1D,North and East Finland,132,0
-France,regional,FR1,Île-de-France,132,0
-France,regional,FRB,Centre-Val de Loire,132,0
-France,regional,FRC,Burgundy-Franche-Comté,132,0
-France,regional,FRD,Normandy,132,0
-France,regional,FRE,Hauts-de-France,132,0
-France,regional,FRF,Grand Est,132,0
-France,regional,FRG,Loire Region,132,0
-France,regional,FRH,Brittany ,132,0
-France,regional,FRI,New Aquitaine,132,0
-France,regional,FRJ,Occitania,132,0
-France,regional,FRK,Auvergne-Rhône-Alpes,132,0
-France,regional,FRL,PACA,132,0
-France,regional,FRM,Corsica ,132,0
-Germany,regional,DE1,Baden-Württemberg,132,0
-Germany,regional,DE2,Bavaria,132,0
-Germany,regional,DE3,Berlin,132,0
-Germany,regional,DE4,Brandenburg,132,0
-Germany,regional,DE5,Bremen,132,0
-Germany,regional,DE6,Hamburg,132,0
-Germany,regional,DE7,Hessen,132,0
-Germany,regional,DE8,Mecklenburg-Vorpommern,132,0
-Germany,regional,DE9,Lower Saxony,132,0
-Germany,regional,DEA,North Rhine-Westphalia,132,0
-Germany,regional,DEB,Rhineland-Palatinate,132,0
-Germany,regional,DEC,Saarland,132,0
-Germany,regional,DED,Saxony,132,0
-Germany,regional,DEE,Saxony-Anhalt,132,0
-Germany,regional,DEF,Schleswig-Holstein,132,0
-Germany,regional,DEG,Thuringia,132,0
+Portugal,regional,PT2,Azores,131,0.05660377358490566
+Portugal,regional,PT3,Madeira,131,0.03
+Slovakia,regional,SK01,Bratislava,131,0.061946902654867256
+Slovakia,regional,SK02,West Slovakia,131,0.09146341463414634
+Slovakia,regional,SK03,Central Slovakia,131,0.038461538461538464
+Slovakia,regional,SK04,East Slovakia,131,0.20394736842105263
+Slovenia,regional,SI03,East Slovenia,131,0.13986013986013987
+Slovenia,regional,SI04,West Slovenia,131,0.2158273381294964
+Spain,regional,ES1,North-West,131,0.09230769230769231
+Spain,regional,ES2,North-East,131,0.0425531914893617
+Spain,regional,ES3,Madrid,131,0.0625
+Spain,regional,ES4,Centre,131,0.08571428571428572
+Spain,regional,ES5,East,131,0.05755395683453238
+Spain,regional,ES6,South,131,0.08955223880597014
+Spain,regional,ES7,Canary Islands,131,0.09
+Sweden,regional,SE1,Eastern Sweden,131,0.15584415584415584
+Sweden,regional,SE2,Southern Sweden,131,0.1511627906976744
+Sweden,regional,SE3,Northern Sweden,131,0.20512820512820512
+Austria,regional,AT1,East Austria,132,0.034653465346534656
+Austria,regional,AT2,South Austria,132,0.024509803921568627
+Austria,regional,AT3,West Austria,132,0.02608695652173913
+Belgium,regional,BE1,Brussels Region,132,0.10096153846153846
+Belgium,regional,BE2,Flemish Region,132,0.032520325203252036
+Belgium,regional,BE3,Waloon Region,132,0.017045454545454544
+Bulgaria,regional,BG3,North and South-East,132,0.07894736842105263
+Bulgaria,regional,BG4,South -West/-Central,132,0.024193548387096774
+Croatia,regional,HR02,Pannonian Croatia,132,0.02032520325203252
+Croatia,regional,HR03,Adriatic Croatia,132,0.050724637681159424
+Croatia,regional,HR05,Zagreb,132,0.018518518518518517
+Croatia,regional,HR06,Northern Croatia,132,0.012
+Cyprus,regional,CY0,Cyprus,132,0.02127659574468085
+Czechia,regional,CZ01,Prague,132,0.03636363636363636
+Czechia,regional,CZ02,Central Bohemia,132,0.05714285714285714
+Czechia,regional,CZ03,South-West,132,0.01020408163265306
+Czechia,regional,CZ04,North-West,132,0.05504587155963303
+Czechia,regional,CZ05,North-East,132,0.023255813953488372
+Czechia,regional,CZ06,South-East,132,0.037383177570093455
+Czechia,regional,CZ07,Central Moravia,132,0.045454545454545456
+Czechia,regional,CZ08,Moravian Silesia,132,0.018691588785046728
+Denmark,regional,DK01,Capital (region),132,0.15306122448979592
+Denmark,regional,DK02,Zealand,132,0.011627906976744186
+Denmark,regional,DK03,South Denmark,132,0.056338028169014086
+Denmark,regional,DK04,Central Jutland,132,0.1076923076923077
+Denmark,regional,DK05,North Jutland,132,0.028169014084507043
+Estonia,regional,EE0,Estonia,132,0.05110497237569061
+Finland,regional,FI19,West Finland,132,0.09375
+Finland,regional,FI1B,Helsinki-Uusimaa,132,0.10119047619047619
+Finland,regional,FI1C,South Finland,132,0.09433962264150944
+Finland,regional,FI1D,North and East Finland,132,0.14792899408284024
+France,regional,FR1,Île-de-France,132,0.16216216216216217
+France,regional,FRB,Centre-Val de Loire,132,0.13942307692307693
+France,regional,FRC,Burgundy-Franche-Comté,132,0.1324200913242009
+France,regional,FRD,Normandy,132,0.11504424778761062
+France,regional,FRE,Hauts-de-France,132,0.11312217194570136
+France,regional,FRF,Grand Est,132,0.1232876712328767
+France,regional,FRG,Loire Region,132,0.07589285714285714
+France,regional,FRH,Brittany ,132,0.08755760368663594
+France,regional,FRI,New Aquitaine,132,0.1271186440677966
+France,regional,FRJ,Occitania,132,0.1
+France,regional,FRK,Auvergne-Rhône-Alpes,132,0.07476635514018691
+France,regional,FRL,PACA,132,0.16091954022988506
+France,regional,FRM,Corsica ,132,0.22321428571428573
+Germany,regional,DE1,Baden-Württemberg,132,0.019417475728155338
+Germany,regional,DE2,Bavaria,132,0.009302325581395349
+Germany,regional,DE3,Berlin,132,0.04310344827586207
+Germany,regional,DE4,Brandenburg,132,0.009345794392523364
+Germany,regional,DE5,Bremen,132,0.028368794326241134
+Germany,regional,DE6,Hamburg,132,0.05116279069767442
+Germany,regional,DE7,Hessen,132,0.038461538461538464
+Germany,regional,DE8,Mecklenburg-Vorpommern,132,0.014563106796116505
+Germany,regional,DE9,Lower Saxony,132,0.025210084033613446
+Germany,regional,DEA,North Rhine-Westphalia,132,0.018433179723502304
+Germany,regional,DEB,Rhineland-Palatinate,132,0.013636363636363636
+Germany,regional,DEC,Saarland,132,0.017857142857142856
+Germany,regional,DED,Saxony,132,0.022727272727272728
+Germany,regional,DEE,Saxony-Anhalt,132,0.023809523809523808
+Germany,regional,DEF,Schleswig-Holstein,132,0.009708737864077669
+Germany,regional,DEG,Thuringia,132,0.02666666666666667
 Greece,regional,EL3,Attica,132,0
-Greece,regional,EL4,"Aegean Islands, Crete",132,0
+Greece,regional,EL4,"Aegean Islands, Crete",132,0.06060606060606061
 Greece,regional,EL5,North Greece,132,0
-Greece,regional,EL6,Central Greece,132,0
-Hungary,regional,HU1,Central Hungary,132,0
-Hungary,regional,HU2,Transdanubia ,132,0
-Hungary,regional,HU3,Great Plain and North,132,0
-Ireland,regional,IE04,Northern and Western,132,0
-Ireland,regional,IE05,Southern,132,0
-Ireland,regional,IE06,Eastern and Midland,132,0
-Italy,regional,ITC,North-West,132,0
-Italy,regional,ITF,South,132,0
-Italy,regional,ITG,Islands,132,0
-Italy,regional,ITH,North-East,132,0
-Italy,regional,ITI,Centre,132,0
-Lithuania,regional,LT01,Capital Region,132,0
-Lithuania,regional,LT02,Central/Western Region,132,0
-Luxembourg,regional,LU00,Luxembourg,132,0
-Malta,regional,MT00,Malta,132,0
-Netherlands,regional,NL1,North Netherlands,132,0
-Netherlands,regional,NL2,East Netherlands,132,0
-Netherlands,regional,NL3,West Netherlands,132,0
-Netherlands,regional,NL4,South Netherlands,132,0
-Portugal,regional,PT1,Continental Portugal,132,0
-Portugal,regional,PT2,Azores,132,0
-Portugal,regional,PT3,Madeira,132,0
-Slovakia,regional,SK01,Bratislava,132,0
-Slovakia,regional,SK02,West Slovakia,132,0
-Slovakia,regional,SK03,Central Slovakia,132,0
-Slovakia,regional,SK04,East Slovakia,132,0
-Slovenia,regional,SI03,East Slovenia,132,0
-Slovenia,regional,SI04,West Slovenia,132,0
-Spain,regional,ES1,North-West,132,0
-Spain,regional,ES2,North-East,132,0
-Spain,regional,ES3,Madrid,132,0
-Spain,regional,ES4,Centre,132,0
-Spain,regional,ES5,East,132,0
-Spain,regional,ES6,South,132,0
-Spain,regional,ES7,Canary Islands,132,0
-Sweden,regional,SE1,Eastern Sweden,132,0
-Sweden,regional,SE2,Southern Sweden,132,0
-Sweden,regional,SE3,Northern Sweden,132,0
-Austria,regional,AT1,East Austria,133,0
-Austria,regional,AT2,South Austria,133,0
-Austria,regional,AT3,West Austria,133,0
-Belgium,regional,BE1,Brussels Region,133,0
-Belgium,regional,BE2,Flemish Region,133,0
-Belgium,regional,BE3,Waloon Region,133,0
-Bulgaria,regional,BG3,North and South-East,133,0
-Bulgaria,regional,BG4,South -West/-Central,133,0
-Croatia,regional,HR02,Pannonian Croatia,133,0
-Croatia,regional,HR03,Adriatic Croatia,133,0
-Croatia,regional,HR05,Zagreb,133,0
-Croatia,regional,HR06,Northern Croatia,133,0
-Cyprus,regional,CY0,Cyprus,133,0
-Czechia,regional,CZ01,Prague,133,0
-Czechia,regional,CZ02,Central Bohemia,133,0
-Czechia,regional,CZ03,South-West,133,0
-Czechia,regional,CZ04,North-West,133,0
-Czechia,regional,CZ05,North-East,133,0
-Czechia,regional,CZ06,South-East,133,0
-Czechia,regional,CZ07,Central Moravia,133,0
-Czechia,regional,CZ08,Moravian Silesia,133,0
-Denmark,regional,DK01,Capital (region),133,0
-Denmark,regional,DK02,Zealand,133,0
-Denmark,regional,DK03,South Denmark,133,0
-Denmark,regional,DK04,Central Jutland,133,0
-Denmark,regional,DK05,North Jutland,133,0
-Estonia,regional,EE0,Estonia,133,0
-Finland,regional,FI19,West Finland,133,0
+Greece,regional,EL6,Central Greece,132,0.02054794520547945
+Hungary,regional,HU1,Central Hungary,132,0.02608695652173913
+Hungary,regional,HU2,Transdanubia ,132,0.025510204081632654
+Hungary,regional,HU3,Great Plain and North,132,0.03773584905660377
+Ireland,regional,IE04,Northern and Western,132,0.08571428571428572
+Ireland,regional,IE05,Southern,132,0.026845637583892617
+Ireland,regional,IE06,Eastern and Midland,132,0.06748466257668712
+Italy,regional,ITC,North-West,132,0.02727272727272727
+Italy,regional,ITF,South,132,0.03735632183908046
+Italy,regional,ITG,Islands,132,0.04451038575667656
+Italy,regional,ITH,North-East,132,0.03058103975535168
+Italy,regional,ITI,Centre,132,0.03296703296703297
+Lithuania,regional,LT01,Capital Region,132,0.006872852233676976
+Lithuania,regional,LT02,Central/Western Region,132,0.010676156583629894
+Luxembourg,regional,LU00,Luxembourg,132,0.014577259475218658
+Malta,regional,MT00,Malta,132,0.06896551724137931
+Netherlands,regional,NL1,North Netherlands,132,0.052083333333333336
+Netherlands,regional,NL2,East Netherlands,132,0.075
+Netherlands,regional,NL3,West Netherlands,132,0.047872340425531915
+Netherlands,regional,NL4,South Netherlands,132,0.08571428571428572
+Portugal,regional,PT1,Continental Portugal,132,0.023622047244094488
+Portugal,regional,PT2,Azores,132,0.0481283422459893
+Portugal,regional,PT3,Madeira,132,0.018518518518518517
+Slovakia,regional,SK01,Bratislava,132,0.03076923076923077
+Slovakia,regional,SK02,West Slovakia,132,0.030042918454935622
+Slovakia,regional,SK03,Central Slovakia,132,0.0392156862745098
+Slovakia,regional,SK04,East Slovakia,132,0.12217194570135746
+Slovenia,regional,SI03,East Slovenia,132,0.17063492063492064
+Slovenia,regional,SI04,West Slovenia,132,0.1388888888888889
+Spain,regional,ES1,North-West,132,0.047619047619047616
+Spain,regional,ES2,North-East,132,0.05442176870748299
+Spain,regional,ES3,Madrid,132,0.07894736842105263
+Spain,regional,ES4,Centre,132,0.0851063829787234
+Spain,regional,ES5,East,132,0.046153846153846156
+Spain,regional,ES6,South,132,0.056338028169014086
+Spain,regional,ES7,Canary Islands,132,0.09905660377358491
+Sweden,regional,SE1,Eastern Sweden,132,0.09045226130653267
+Sweden,regional,SE2,Southern Sweden,132,0.16666666666666666
+Sweden,regional,SE3,Northern Sweden,132,0.16666666666666666
+Austria,regional,AT1,East Austria,133,0.0707070707070707
+Austria,regional,AT2,South Austria,133,0.022988505747126436
+Austria,regional,AT3,West Austria,133,0.02830188679245283
+Belgium,regional,BE1,Brussels Region,133,0.19834710743801653
+Belgium,regional,BE2,Flemish Region,133,0.07272727272727272
+Belgium,regional,BE3,Waloon Region,133,0.028985507246376812
+Bulgaria,regional,BG3,North and South-East,133,0.1232876712328767
+Bulgaria,regional,BG4,South -West/-Central,133,0.045454545454545456
+Croatia,regional,HR02,Pannonian Croatia,133,0.06976744186046512
+Croatia,regional,HR03,Adriatic Croatia,133,0.13636363636363635
+Croatia,regional,HR05,Zagreb,133,0.08888888888888889
+Croatia,regional,HR06,Northern Croatia,133,0.046511627906976744
+Cyprus,regional,CY0,Cyprus,133,0.045454545454545456
+Czechia,regional,CZ01,Prague,133,0.06451612903225806
+Czechia,regional,CZ02,Central Bohemia,133,0.11764705882352941
+Czechia,regional,CZ03,South-West,133,0.025
+Czechia,regional,CZ04,North-West,133,0.023809523809523808
+Czechia,regional,CZ05,North-East,133,0.043478260869565216
+Czechia,regional,CZ06,South-East,133,0.0851063829787234
+Czechia,regional,CZ07,Central Moravia,133,0.08333333333333333
+Czechia,regional,CZ08,Moravian Silesia,133,0.027777777777777776
+Denmark,regional,DK01,Capital (region),133,0.18840579710144928
+Denmark,regional,DK02,Zealand,133,0.140625
+Denmark,regional,DK03,South Denmark,133,0.10204081632653061
+Denmark,regional,DK04,Central Jutland,133,0.1
+Denmark,regional,DK05,North Jutland,133,0.06896551724137931
+Estonia,regional,EE0,Estonia,133,0.03669724770642202
+Finland,regional,FI19,West Finland,133,0.058823529411764705
 Finland,regional,FI1B,Helsinki-Uusimaa,133,0
-Finland,regional,FI1C,South Finland,133,0
+Finland,regional,FI1C,South Finland,133,0.06493506493506493
 Finland,regional,FI1D,North and East Finland,133,0
-France,regional,FR1,Île-de-France,133,0
-France,regional,FRB,Centre-Val de Loire,133,0
-France,regional,FRC,Burgundy-Franche-Comté,133,0
-France,regional,FRD,Normandy,133,0
-France,regional,FRE,Hauts-de-France,133,0
-France,regional,FRF,Grand Est,133,0
-France,regional,FRG,Loire Region,133,0
-France,regional,FRH,Brittany ,133,0
-France,regional,FRI,New Aquitaine,133,0
-France,regional,FRJ,Occitania,133,0
-France,regional,FRK,Auvergne-Rhône-Alpes,133,0
-France,regional,FRL,PACA,133,0
-France,regional,FRM,Corsica ,133,0
-Germany,regional,DE1,Baden-Württemberg,133,0
-Germany,regional,DE2,Bavaria,133,0
-Germany,regional,DE3,Berlin,133,0
+France,regional,FR1,Île-de-France,133,0.3125
+France,regional,FRB,Centre-Val de Loire,133,0.13114754098360656
+France,regional,FRC,Burgundy-Franche-Comté,133,0.10810810810810811
+France,regional,FRD,Normandy,133,0.19047619047619047
+France,regional,FRE,Hauts-de-France,133,0.23529411764705882
+France,regional,FRF,Grand Est,133,0.24
+France,regional,FRG,Loire Region,133,0.1111111111111111
+France,regional,FRH,Brittany ,133,0.17777777777777778
+France,regional,FRI,New Aquitaine,133,0.05
+France,regional,FRJ,Occitania,133,0.203125
+France,regional,FRK,Auvergne-Rhône-Alpes,133,0.11538461538461539
+France,regional,FRL,PACA,133,0.24242424242424243
+France,regional,FRM,Corsica ,133,0.2
+Germany,regional,DE1,Baden-Württemberg,133,0.1276595744680851
+Germany,regional,DE2,Bavaria,133,0.11904761904761904
+Germany,regional,DE3,Berlin,133,0.11688311688311688
 Germany,regional,DE4,Brandenburg,133,0
-Germany,regional,DE5,Bremen,133,0
-Germany,regional,DE6,Hamburg,133,0
-Germany,regional,DE7,Hessen,133,0
-Germany,regional,DE8,Mecklenburg-Vorpommern,133,0
-Germany,regional,DE9,Lower Saxony,133,0
-Germany,regional,DEA,North Rhine-Westphalia,133,0
-Germany,regional,DEB,Rhineland-Palatinate,133,0
-Germany,regional,DEC,Saarland,133,0
-Germany,regional,DED,Saxony,133,0
-Germany,regional,DEE,Saxony-Anhalt,133,0
-Germany,regional,DEF,Schleswig-Holstein,133,0
-Germany,regional,DEG,Thuringia,133,0
-Greece,regional,EL3,Attica,133,0
-Greece,regional,EL4,"Aegean Islands, Crete",133,0
+Germany,regional,DE5,Bremen,133,0.07317073170731707
+Germany,regional,DE6,Hamburg,133,0.18181818181818182
+Germany,regional,DE7,Hessen,133,0.16071428571428573
+Germany,regional,DE8,Mecklenburg-Vorpommern,133,0.05
+Germany,regional,DE9,Lower Saxony,133,0.05263157894736842
+Germany,regional,DEA,North Rhine-Westphalia,133,0.06557377049180328
+Germany,regional,DEB,Rhineland-Palatinate,133,0.1891891891891892
+Germany,regional,DEC,Saarland,133,0.09523809523809523
+Germany,regional,DED,Saxony,133,0.07407407407407407
+Germany,regional,DEE,Saxony-Anhalt,133,0.08333333333333333
+Germany,regional,DEF,Schleswig-Holstein,133,0.08163265306122448
+Germany,regional,DEG,Thuringia,133,0.11320754716981132
+Greece,regional,EL3,Attica,133,0.015873015873015872
+Greece,regional,EL4,"Aegean Islands, Crete",133,0.06097560975609756
 Greece,regional,EL5,North Greece,133,0
 Greece,regional,EL6,Central Greece,133,0
-Hungary,regional,HU1,Central Hungary,133,0
-Hungary,regional,HU2,Transdanubia ,133,0
-Hungary,regional,HU3,Great Plain and North,133,0
-Ireland,regional,IE04,Northern and Western,133,0
-Ireland,regional,IE05,Southern,133,0
-Ireland,regional,IE06,Eastern and Midland,133,0
-Italy,regional,ITC,North-West,133,0
-Italy,regional,ITF,South,133,0
-Italy,regional,ITG,Islands,133,0
-Italy,regional,ITH,North-East,133,0
-Italy,regional,ITI,Centre,133,0
-Lithuania,regional,LT01,Capital Region,133,0
-Lithuania,regional,LT02,Central/Western Region,133,0
-Luxembourg,regional,LU00,Luxembourg,133,0
-Malta,regional,MT00,Malta,133,0
-Netherlands,regional,NL1,North Netherlands,133,0
-Netherlands,regional,NL2,East Netherlands,133,0
-Netherlands,regional,NL3,West Netherlands,133,0
-Netherlands,regional,NL4,South Netherlands,133,0
+Hungary,regional,HU1,Central Hungary,133,0.03773584905660377
+Hungary,regional,HU2,Transdanubia ,133,0.08
+Hungary,regional,HU3,Great Plain and North,133,0.14285714285714285
+Ireland,regional,IE04,Northern and Western,133,0.16363636363636364
+Ireland,regional,IE05,Southern,133,0.1111111111111111
+Ireland,regional,IE06,Eastern and Midland,133,0.06593406593406594
+Italy,regional,ITC,North-West,133,0.031007751937984496
+Italy,regional,ITF,South,133,0.05755395683453238
+Italy,regional,ITG,Islands,133,0.07142857142857142
+Italy,regional,ITH,North-East,133,0.056910569105691054
+Italy,regional,ITI,Centre,133,0.041379310344827586
+Lithuania,regional,LT01,Capital Region,133,0.011494252873563218
+Lithuania,regional,LT02,Central/Western Region,133,0.02631578947368421
+Luxembourg,regional,LU00,Luxembourg,133,0.043010752688172046
+Malta,regional,MT00,Malta,133,0.05555555555555555
+Netherlands,regional,NL1,North Netherlands,133,0.06097560975609756
+Netherlands,regional,NL2,East Netherlands,133,0.08433734939759036
+Netherlands,regional,NL3,West Netherlands,133,0.13432835820895522
+Netherlands,regional,NL4,South Netherlands,133,0.08860759493670886
 Portugal,regional,PT1,Continental Portugal,133,0
-Portugal,regional,PT2,Azores,133,0
-Portugal,regional,PT3,Madeira,133,0
-Slovakia,regional,SK01,Bratislava,133,0
-Slovakia,regional,SK02,West Slovakia,133,0
-Slovakia,regional,SK03,Central Slovakia,133,0
-Slovakia,regional,SK04,East Slovakia,133,0
-Slovenia,regional,SI03,East Slovenia,133,0
-Slovenia,regional,SI04,West Slovenia,133,0
-Spain,regional,ES1,North-West,133,0
-Spain,regional,ES2,North-East,133,0
-Spain,regional,ES3,Madrid,133,0
-Spain,regional,ES4,Centre,133,0
-Spain,regional,ES5,East,133,0
-Spain,regional,ES6,South,133,0
-Spain,regional,ES7,Canary Islands,133,0
-Sweden,regional,SE1,Eastern Sweden,133,0
-Sweden,regional,SE2,Southern Sweden,133,0
-Sweden,regional,SE3,Northern Sweden,133,0
-Austria,regional,AT1,East Austria,134,0
-Austria,regional,AT2,South Austria,134,0
-Austria,regional,AT3,West Austria,134,0
-Belgium,regional,BE1,Brussels Region,134,0
-Belgium,regional,BE2,Flemish Region,134,0
-Belgium,regional,BE3,Waloon Region,134,0
-Bulgaria,regional,BG3,North and South-East,134,0
-Bulgaria,regional,BG4,South -West/-Central,134,0
-Croatia,regional,HR02,Pannonian Croatia,134,0
-Croatia,regional,HR03,Adriatic Croatia,134,0
-Croatia,regional,HR05,Zagreb,134,0
-Croatia,regional,HR06,Northern Croatia,134,0
-Cyprus,regional,CY0,Cyprus,134,0
-Czechia,regional,CZ01,Prague,134,0
-Czechia,regional,CZ02,Central Bohemia,134,0
-Czechia,regional,CZ03,South-West,134,0
-Czechia,regional,CZ04,North-West,134,0
-Czechia,regional,CZ05,North-East,134,0
-Czechia,regional,CZ06,South-East,134,0
-Czechia,regional,CZ07,Central Moravia,134,0
-Czechia,regional,CZ08,Moravian Silesia,134,0
-Denmark,regional,DK01,Capital (region),134,0
-Denmark,regional,DK02,Zealand,134,0
-Denmark,regional,DK03,South Denmark,134,0
-Denmark,regional,DK04,Central Jutland,134,0
-Denmark,regional,DK05,North Jutland,134,0
-Estonia,regional,EE0,Estonia,134,0
-Finland,regional,FI19,West Finland,134,0
-Finland,regional,FI1B,Helsinki-Uusimaa,134,0
-Finland,regional,FI1C,South Finland,134,0
-Finland,regional,FI1D,North and East Finland,134,0
-France,regional,FR1,Île-de-France,134,0
-France,regional,FRB,Centre-Val de Loire,134,0
-France,regional,FRC,Burgundy-Franche-Comté,134,0
-France,regional,FRD,Normandy,134,0
-France,regional,FRE,Hauts-de-France,134,0
-France,regional,FRF,Grand Est,134,0
-France,regional,FRG,Loire Region,134,0
-France,regional,FRH,Brittany ,134,0
-France,regional,FRI,New Aquitaine,134,0
-France,regional,FRJ,Occitania,134,0
-France,regional,FRK,Auvergne-Rhône-Alpes,134,0
-France,regional,FRL,PACA,134,0
-France,regional,FRM,Corsica ,134,0
-Germany,regional,DE1,Baden-Württemberg,134,0
-Germany,regional,DE2,Bavaria,134,0
-Germany,regional,DE3,Berlin,134,0
-Germany,regional,DE4,Brandenburg,134,0
-Germany,regional,DE5,Bremen,134,0
-Germany,regional,DE6,Hamburg,134,0
-Germany,regional,DE7,Hessen,134,0
-Germany,regional,DE8,Mecklenburg-Vorpommern,134,0
-Germany,regional,DE9,Lower Saxony,134,0
-Germany,regional,DEA,North Rhine-Westphalia,134,0
-Germany,regional,DEB,Rhineland-Palatinate,134,0
-Germany,regional,DEC,Saarland,134,0
-Germany,regional,DED,Saxony,134,0
-Germany,regional,DEE,Saxony-Anhalt,134,0
-Germany,regional,DEF,Schleswig-Holstein,134,0
-Germany,regional,DEG,Thuringia,134,0
-Greece,regional,EL3,Attica,134,0
-Greece,regional,EL4,"Aegean Islands, Crete",134,0
-Greece,regional,EL5,North Greece,134,0
-Greece,regional,EL6,Central Greece,134,0
-Hungary,regional,HU1,Central Hungary,134,0
-Hungary,regional,HU2,Transdanubia ,134,0
-Hungary,regional,HU3,Great Plain and North,134,0
-Ireland,regional,IE04,Northern and Western,134,0
-Ireland,regional,IE05,Southern,134,0
-Ireland,regional,IE06,Eastern and Midland,134,0
-Italy,regional,ITC,North-West,134,0
-Italy,regional,ITF,South,134,0
-Italy,regional,ITG,Islands,134,0
-Italy,regional,ITH,North-East,134,0
-Italy,regional,ITI,Centre,134,0
-Lithuania,regional,LT01,Capital Region,134,0
-Lithuania,regional,LT02,Central/Western Region,134,0
-Luxembourg,regional,LU00,Luxembourg,134,0
-Malta,regional,MT00,Malta,134,0
-Netherlands,regional,NL1,North Netherlands,134,0
-Netherlands,regional,NL2,East Netherlands,134,0
-Netherlands,regional,NL3,West Netherlands,134,0
-Netherlands,regional,NL4,South Netherlands,134,0
-Portugal,regional,PT1,Continental Portugal,134,0
-Portugal,regional,PT2,Azores,134,0
-Portugal,regional,PT3,Madeira,134,0
-Slovakia,regional,SK01,Bratislava,134,0
-Slovakia,regional,SK02,West Slovakia,134,0
-Slovakia,regional,SK03,Central Slovakia,134,0
-Slovakia,regional,SK04,East Slovakia,134,0
-Slovenia,regional,SI03,East Slovenia,134,0
-Slovenia,regional,SI04,West Slovenia,134,0
-Spain,regional,ES1,North-West,134,0
-Spain,regional,ES2,North-East,134,0
-Spain,regional,ES3,Madrid,134,0
-Spain,regional,ES4,Centre,134,0
-Spain,regional,ES5,East,134,0
-Spain,regional,ES6,South,134,0
-Spain,regional,ES7,Canary Islands,134,0
-Sweden,regional,SE1,Eastern Sweden,134,0
-Sweden,regional,SE2,Southern Sweden,134,0
-Sweden,regional,SE3,Northern Sweden,134,0
+Portugal,regional,PT2,Azores,133,0.048
+Portugal,regional,PT3,Madeira,133,0.0390625
+Slovakia,regional,SK01,Bratislava,133,0.1864406779661017
+Slovakia,regional,SK02,West Slovakia,133,0.11428571428571428
+Slovakia,regional,SK03,Central Slovakia,133,0.13095238095238096
+Slovakia,regional,SK04,East Slovakia,133,0.2222222222222222
+Slovenia,regional,SI03,East Slovenia,133,0.203125
+Slovenia,regional,SI04,West Slovenia,133,0.18181818181818182
+Spain,regional,ES1,North-West,133,0.12048192771084337
+Spain,regional,ES2,North-East,133,0.140625
+Spain,regional,ES3,Madrid,133,0.14634146341463414
+Spain,regional,ES4,Centre,133,0.09803921568627451
+Spain,regional,ES5,East,133,0.17333333333333334
+Spain,regional,ES6,South,133,0.1
+Spain,regional,ES7,Canary Islands,133,0.11711711711711711
+Sweden,regional,SE1,Eastern Sweden,133,0.23157894736842105
+Sweden,regional,SE2,Southern Sweden,133,0.23684210526315788
+Sweden,regional,SE3,Northern Sweden,133,0.19117647058823528
+Austria,regional,AT1,East Austria,134,0.050314465408805034
+Austria,regional,AT2,South Austria,134,0.0457516339869281
+Austria,regional,AT3,West Austria,134,0.037914691943127965
+Belgium,regional,BE1,Brussels Region,134,0.0858085808580858
+Belgium,regional,BE2,Flemish Region,134,0.023622047244094488
+Belgium,regional,BE3,Waloon Region,134,0.027874564459930314
+Bulgaria,regional,BG3,North and South-East,134,0.1437246963562753
+Bulgaria,regional,BG4,South -West/-Central,134,0.13214990138067062
+Croatia,regional,HR02,Pannonian Croatia,134,0.0921409214092141
+Croatia,regional,HR03,Adriatic Croatia,134,0.1655011655011655
+Croatia,regional,HR05,Zagreb,134,0.13114754098360656
+Croatia,regional,HR06,Northern Croatia,134,0.13953488372093023
+Cyprus,regional,CY0,Cyprus,134,0.01793103448275862
+Czechia,regional,CZ01,Prague,134,0.07407407407407407
+Czechia,regional,CZ02,Central Bohemia,134,0.13063063063063063
+Czechia,regional,CZ03,South-West,134,0.03902439024390244
+Czechia,regional,CZ04,North-West,134,0.08040201005025126
+Czechia,regional,CZ05,North-East,134,0.09852216748768473
+Czechia,regional,CZ06,South-East,134,0.10628019323671498
+Czechia,regional,CZ07,Central Moravia,134,0.08823529411764706
+Czechia,regional,CZ08,Moravian Silesia,134,0.1
+Denmark,regional,DK01,Capital (region),134,0.049586776859504134
+Denmark,regional,DK02,Zealand,134,0.01092896174863388
+Denmark,regional,DK03,South Denmark,134,0.013736263736263736
+Denmark,regional,DK04,Central Jutland,134,0.03038674033149171
+Denmark,regional,DK05,North Jutland,134,0.007978723404255319
+Estonia,regional,EE0,Estonia,134,0.09149623250807319
+Finland,regional,FI19,West Finland,134,0.029850746268656716
+Finland,regional,FI1B,Helsinki-Uusimaa,134,0.023404255319148935
+Finland,regional,FI1C,South Finland,134,0.02181818181818182
+Finland,regional,FI1D,North and East Finland,134,0.02608695652173913
+France,regional,FR1,Île-de-France,134,0.1951219512195122
+France,regional,FRB,Centre-Val de Loire,134,0.15755627009646303
+France,regional,FRC,Burgundy-Franche-Comté,134,0.1743119266055046
+France,regional,FRD,Normandy,134,0.14327485380116958
+France,regional,FRE,Hauts-de-France,134,0.14675767918088736
+France,regional,FRF,Grand Est,134,0.1365079365079365
+France,regional,FRG,Loire Region,134,0.1292517006802721
+France,regional,FRH,Brittany ,134,0.14563106796116504
+France,regional,FRI,New Aquitaine,134,0.12380952380952381
+France,regional,FRJ,Occitania,134,0.11209439528023599
+France,regional,FRK,Auvergne-Rhône-Alpes,134,0.11711711711711711
+France,regional,FRL,PACA,134,0.1702127659574468
+France,regional,FRM,Corsica ,134,0.1951219512195122
+Germany,regional,DE1,Baden-Württemberg,134,0.034013605442176874
+Germany,regional,DE2,Bavaria,134,0.026415094339622643
+Germany,regional,DE3,Berlin,134,0.06528189910979229
+Germany,regional,DE4,Brandenburg,134,0.023952095808383235
+Germany,regional,DE5,Bremen,134,0.01764705882352941
+Germany,regional,DE6,Hamburg,134,0.039603960396039604
+Germany,regional,DE7,Hessen,134,0.051194539249146756
+Germany,regional,DE8,Mecklenburg-Vorpommern,134,0.029850746268656716
+Germany,regional,DE9,Lower Saxony,134,0.03873239436619718
+Germany,regional,DEA,North Rhine-Westphalia,134,0.0273972602739726
+Germany,regional,DEB,Rhineland-Palatinate,134,0.035211267605633804
+Germany,regional,DEC,Saarland,134,0.05928853754940711
+Germany,regional,DED,Saxony,134,0.0291005291005291
+Germany,regional,DEE,Saxony-Anhalt,134,0.031609195402298854
+Germany,regional,DEF,Schleswig-Holstein,134,0.021739130434782608
+Germany,regional,DEG,Thuringia,134,0.032448377581120944
+Greece,regional,EL3,Attica,134,0.12025316455696203
+Greece,regional,EL4,"Aegean Islands, Crete",134,0.2310126582278481
+Greece,regional,EL5,North Greece,134,0.03064066852367688
+Greece,regional,EL6,Central Greece,134,0.31560283687943264
+Hungary,regional,HU1,Central Hungary,134,0.12222222222222222
+Hungary,regional,HU2,Transdanubia ,134,0.10989010989010989
+Hungary,regional,HU3,Great Plain and North,134,0.16387337057728119
+Ireland,regional,IE04,Northern and Western,134,0.072
+Ireland,regional,IE05,Southern,134,0.06231454005934718
+Ireland,regional,IE06,Eastern and Midland,134,0.07520891364902507
+Italy,regional,ITC,North-West,134,0.05514157973174367
+Italy,regional,ITF,South,134,0.06741573033707865
+Italy,regional,ITG,Islands,134,0.06020066889632107
+Italy,regional,ITH,North-East,134,0.04783258594917788
+Italy,regional,ITI,Centre,134,0.04173106646058733
+Lithuania,regional,LT01,Capital Region,134,0.13452188006482982
+Lithuania,regional,LT02,Central/Western Region,134,0.08059701492537313
+Luxembourg,regional,LU00,Luxembourg,134,0.016317016317016316
+Malta,regional,MT00,Malta,134,0.06981981981981981
+Netherlands,regional,NL1,North Netherlands,134,0.026694045174537988
+Netherlands,regional,NL2,East Netherlands,134,0.02390438247011952
+Netherlands,regional,NL3,West Netherlands,134,0.01953125
+Netherlands,regional,NL4,South Netherlands,134,0.03624733475479744
+Portugal,regional,PT1,Continental Portugal,134,0.009501187648456057
+Portugal,regional,PT2,Azores,134,0.04559270516717325
+Portugal,regional,PT3,Madeira,134,0.018475750577367205
+Slovakia,regional,SK01,Bratislava,134,0.18412698412698414
+Slovakia,regional,SK02,West Slovakia,134,0.18793503480278423
+Slovakia,regional,SK03,Central Slovakia,134,0.12740384615384615
+Slovakia,regional,SK04,East Slovakia,134,0.17369727047146402
+Slovenia,regional,SI03,East Slovenia,134,0.2463768115942029
+Slovenia,regional,SI04,West Slovenia,134,0.20222222222222222
+Spain,regional,ES1,North-West,134,0.0365296803652968
+Spain,regional,ES2,North-East,134,0.05227272727272727
+Spain,regional,ES3,Madrid,134,0.027160493827160494
+Spain,regional,ES4,Centre,134,0.04739336492890995
+Spain,regional,ES5,East,134,0.033112582781456956
+Spain,regional,ES6,South,134,0.059907834101382486
+Spain,regional,ES7,Canary Islands,134,0.07175925925925926
+Sweden,regional,SE1,Eastern Sweden,134,0.2755741127348643
+Sweden,regional,SE2,Southern Sweden,134,0.2878787878787879
+Sweden,regional,SE3,Northern Sweden,134,0.2752688172043011
 Austria,regional,AT1,East Austria,135,0.4475703324808184
 Austria,regional,AT2,South Austria,135,0.46816976127320953
 Austria,regional,AT3,West Austria,135,0.48239895697522817
@@ -13191,11 +13191,11 @@ Austria,national,AT,Austria,127,0.07585383810182036
 Austria,national,AT,Austria,128,0.6296064939506237
 Austria,national,AT,Austria,129,0.3721282409569563
 Austria,national,AT,Austria,13,0.27200277611311574
-Austria,national,AT,Austria,130,0
-Austria,national,AT,Austria,131,0
-Austria,national,AT,Austria,132,0
-Austria,national,AT,Austria,133,0
-Austria,national,AT,Austria,134,0
+Austria,national,AT,Austria,130,0.025086354309155658
+Austria,national,AT,Austria,131,0.02489278540861552
+Austria,national,AT,Austria,132,0.029534377806300107
+Austria,national,AT,Austria,133,0.04586937389727278
+Austria,national,AT,Austria,134,0.044943401668626926
 Austria,national,AT,Austria,135,0.46422460424647344
 Austria,national,AT,Austria,136,0.45962505187581765
 Austria,national,AT,Austria,137,0.5287253304605029
@@ -13320,11 +13320,11 @@ Belgium,national,BE,Belgium,127,0.12295501358622948
 Belgium,national,BE,Belgium,128,0.5095414070878065
 Belgium,national,BE,Belgium,129,0.21995963771121663
 Belgium,national,BE,Belgium,13,0.22327452564840206
-Belgium,national,BE,Belgium,130,0
-Belgium,national,BE,Belgium,131,0
-Belgium,national,BE,Belgium,132,0
-Belgium,national,BE,Belgium,133,0
-Belgium,national,BE,Belgium,134,0
+Belgium,national,BE,Belgium,130,0.05578030112842776
+Belgium,national,BE,Belgium,131,0.03819921170994174
+Belgium,national,BE,Belgium,132,0.034946194072389115
+Belgium,national,BE,Belgium,133,0.07234468503457565
+Belgium,national,BE,Belgium,134,0.03159903346788615
 Belgium,national,BE,Belgium,135,0.4809265756857579
 Belgium,national,BE,Belgium,136,0.5488106576420707
 Belgium,national,BE,Belgium,137,0.6309667735082876
@@ -13449,11 +13449,11 @@ Bulgaria,national,BG,Bulgaria,127,0.3571654536539375
 Bulgaria,national,BG,Bulgaria,128,0.7551636492415766
 Bulgaria,national,BG,Bulgaria,129,0.439928735878812
 Bulgaria,national,BG,Bulgaria,13,0.1705939026893952
-Bulgaria,national,BG,Bulgaria,130,0
-Bulgaria,national,BG,Bulgaria,131,0
-Bulgaria,national,BG,Bulgaria,132,0
-Bulgaria,national,BG,Bulgaria,133,0
-Bulgaria,national,BG,Bulgaria,134,0
+Bulgaria,national,BG,Bulgaria,130,0.27426090614413384
+Bulgaria,national,BG,Bulgaria,131,0.1365349068950189
+Bulgaria,national,BG,Bulgaria,132,0.05077454764154312
+Bulgaria,national,BG,Bulgaria,133,0.08323971290043368
+Bulgaria,national,BG,Bulgaria,134,0.1377690456965579
 Bulgaria,national,BG,Bulgaria,135,0.47978423681549454
 Bulgaria,national,BG,Bulgaria,136,0.4505862618594967
 Bulgaria,national,BG,Bulgaria,137,0.4821484377498896
@@ -13578,11 +13578,11 @@ Croatia,national,HR,Croatia,127,0.25425101520830157
 Croatia,national,HR,Croatia,128,0.7116317914428529
 Croatia,national,HR,Croatia,129,0.33019971628414924
 Croatia,national,HR,Croatia,13,0.15012607673240685
-Croatia,national,HR,Croatia,130,0
-Croatia,national,HR,Croatia,131,0
-Croatia,national,HR,Croatia,132,0
-Croatia,national,HR,Croatia,133,0
-Croatia,national,HR,Croatia,134,0
+Croatia,national,HR,Croatia,130,0.15065283383802708
+Croatia,national,HR,Croatia,131,0.10082322176951392
+Croatia,national,HR,Croatia,132,0.0285136008905875
+Croatia,national,HR,Croatia,133,0.09128926707372852
+Croatia,national,HR,Croatia,134,0.13431676843537318
 Croatia,national,HR,Croatia,135,0.423014141268078
 Croatia,national,HR,Croatia,136,0.3953778993743674
 Croatia,national,HR,Croatia,137,0.42684240138513546
@@ -13707,11 +13707,11 @@ Cyprus,national,CY,Cyprus,127,0.20812685827552033
 Cyprus,national,CY,Cyprus,128,0.7165510406342914
 Cyprus,national,CY,Cyprus,129,0.2544731610337972
 Cyprus,national,CY,Cyprus,13,0.1411042944785276
-Cyprus,national,CY,Cyprus,130,0
-Cyprus,national,CY,Cyprus,131,0
-Cyprus,national,CY,Cyprus,132,0
-Cyprus,national,CY,Cyprus,133,0
-Cyprus,national,CY,Cyprus,134,0
+Cyprus,national,CY,Cyprus,130,0.05154639175257732
+Cyprus,national,CY,Cyprus,131,0.0392156862745098
+Cyprus,national,CY,Cyprus,132,0.02127659574468085
+Cyprus,national,CY,Cyprus,133,0.045454545454545456
+Cyprus,national,CY,Cyprus,134,0.01793103448275862
 Cyprus,national,CY,Cyprus,135,0.39384920634920634
 Cyprus,national,CY,Cyprus,136,0.44202180376610506
 Cyprus,national,CY,Cyprus,137,0.5837462834489594
@@ -13836,11 +13836,11 @@ Czechia,national,CZ,Czechia,127,0.12323231912679591
 Czechia,national,CZ,Czechia,128,0.6021488190271789
 Czechia,national,CZ,Czechia,129,0.43085236896577683
 Czechia,national,CZ,Czechia,13,0.14189830204599008
-Czechia,national,CZ,Czechia,130,0
-Czechia,national,CZ,Czechia,131,0
-Czechia,national,CZ,Czechia,132,0
-Czechia,national,CZ,Czechia,133,0
-Czechia,national,CZ,Czechia,134,0
+Czechia,national,CZ,Czechia,130,0.05955123268123124
+Czechia,national,CZ,Czechia,131,0.0637750615169757
+Czechia,national,CZ,Czechia,132,0.0353787528490247
+Czechia,national,CZ,Czechia,133,0.061216290542050175
+Czechia,national,CZ,Czechia,134,0.09121550168629335
 Czechia,national,CZ,Czechia,135,0.5037750934407295
 Czechia,national,CZ,Czechia,136,0.4410813911543412
 Czechia,national,CZ,Czechia,137,0.5312844078393636
@@ -13965,11 +13965,11 @@ Denmark,national,DK,Denmark,127,0.08772378552599225
 Denmark,national,DK,Denmark,128,0.2249966419920721
 Denmark,national,DK,Denmark,129,0.1598397541831817
 Denmark,national,DK,Denmark,13,0.30149948126726595
-Denmark,national,DK,Denmark,130,0
-Denmark,national,DK,Denmark,131,0
-Denmark,national,DK,Denmark,132,0
-Denmark,national,DK,Denmark,133,0
-Denmark,national,DK,Denmark,134,0
+Denmark,national,DK,Denmark,130,0.18614940874990776
+Denmark,national,DK,Denmark,131,0.06464489494341014
+Denmark,national,DK,Denmark,132,0.08971678229216064
+Denmark,national,DK,Denmark,133,0.13132644823471715
+Denmark,national,DK,Denmark,134,0.028003250251091686
 Denmark,national,DK,Denmark,135,0.5183460365452415
 Denmark,national,DK,Denmark,136,0.4872155452087625
 Denmark,national,DK,Denmark,137,0.622859255469971
@@ -14094,11 +14094,11 @@ Estonia,national,EE,Estonia,127,0.05560882070949185
 Estonia,national,EE,Estonia,128,0.4218600191754554
 Estonia,national,EE,Estonia,129,0.16314779270633398
 Estonia,national,EE,Estonia,13,0.08317929759704251
-Estonia,national,EE,Estonia,130,0
-Estonia,national,EE,Estonia,131,0
-Estonia,national,EE,Estonia,132,0
-Estonia,national,EE,Estonia,133,0
-Estonia,national,EE,Estonia,134,0
+Estonia,national,EE,Estonia,130,0.055299539170506916
+Estonia,national,EE,Estonia,131,0.04472843450479233
+Estonia,national,EE,Estonia,132,0.05110497237569061
+Estonia,national,EE,Estonia,133,0.03669724770642202
+Estonia,national,EE,Estonia,134,0.09149623250807319
 Estonia,national,EE,Estonia,135,0.5379442843419788
 Estonia,national,EE,Estonia,136,0.3764367816091954
 Estonia,national,EE,Estonia,137,0.45489443378119004
@@ -14223,11 +14223,11 @@ Finland,national,FI,Finland,127,0.04751587533514215
 Finland,national,FI,Finland,128,0.4102003145983522
 Finland,national,FI,Finland,129,0.2420231674060473
 Finland,national,FI,Finland,13,0.17829960610486192
-Finland,national,FI,Finland,130,0
-Finland,national,FI,Finland,131,0
-Finland,national,FI,Finland,132,0
-Finland,national,FI,Finland,133,0
-Finland,national,FI,Finland,134,0
+Finland,national,FI,Finland,130,0.04494107306838477
+Finland,national,FI,Finland,131,0.014360299212996875
+Finland,national,FI,Finland,132,0.10805693924849706
+Finland,national,FI,Finland,133,0.027996728591849575
+Finland,national,FI,Finland,134,0.02516769711454517
 Finland,national,FI,Finland,135,0.6485434405150623
 Finland,national,FI,Finland,136,0.4446470174019354
 Finland,national,FI,Finland,137,0.5206077938536623
@@ -14352,11 +14352,11 @@ France,national,FR,France,127,0.10947114339375498
 France,national,FR,France,128,0.5104160328515333
 France,national,FR,France,129,0.28608631362952525
 France,national,FR,France,13,0.19210794305027934
-France,national,FR,France,130,0
-France,national,FR,France,131,0
-France,national,FR,France,132,0
-France,national,FR,France,133,0
-France,national,FR,France,134,0
+France,national,FR,France,130,0.15856536255343145
+France,national,FR,France,131,0.1662728452133653
+France,national,FR,France,132,0.1172617709218985
+France,national,FR,France,133,0.18703073067769313
+France,national,FR,France,134,0.14347917267555751
 France,national,FR,France,135,0.6408824298140858
 France,national,FR,France,136,0.47319374398012304
 France,national,FR,France,137,0.5088359293980761
@@ -14481,11 +14481,11 @@ Germany,national,DE,Germany,127,0.08805818323534703
 Germany,national,DE,Germany,128,0.45751854382771
 Germany,national,DE,Germany,129,0.2900824413585578
 Germany,national,DE,Germany,13,0.24764676388484866
-Germany,national,DE,Germany,130,0
-Germany,national,DE,Germany,131,0
-Germany,national,DE,Germany,132,0
-Germany,national,DE,Germany,133,0
-Germany,national,DE,Germany,134,0
+Germany,national,DE,Germany,130,0.028912035394829547
+Germany,national,DE,Germany,131,0.028949226704439772
+Germany,national,DE,Germany,132,0.020856398371891863
+Germany,national,DE,Germany,133,0.10004090155736145
+Germany,national,DE,Germany,134,0.03372790973648955
 Germany,national,DE,Germany,135,0.4515395090689204
 Germany,national,DE,Germany,136,0.43582832224315643
 Germany,national,DE,Germany,137,0.5139627072885037
@@ -14610,11 +14610,11 @@ Greece,national,EL,Greece,127,0.30341751035909365
 Greece,national,EL,Greece,128,0.6809825505386561
 Greece,national,EL,Greece,129,0.49734414184524256
 Greece,national,EL,Greece,13,0.2508210931527992
-Greece,national,EL,Greece,130,0
-Greece,national,EL,Greece,131,0
-Greece,national,EL,Greece,132,0
-Greece,national,EL,Greece,133,0
-Greece,national,EL,Greece,134,0
+Greece,national,EL,Greece,130,0.10947983300936959
+Greece,national,EL,Greece,131,0.03446298127523811
+Greece,national,EL,Greece,132,0.011728797624111977
+Greece,national,EL,Greece,133,0.012484302599636565
+Greece,national,EL,Greece,134,0.15551504300720076
 Greece,national,EL,Greece,135,0.5091211678264244
 Greece,national,EL,Greece,136,0.46728356412506156
 Greece,national,EL,Greece,137,0.5766197424747573
@@ -14739,11 +14739,11 @@ Hungary,national,HU,Hungary,127,0.12007965269833412
 Hungary,national,HU,Hungary,128,0.674344795384489
 Hungary,national,HU,Hungary,129,0.3971501523465832
 Hungary,national,HU,Hungary,13,0.13537490970989538
-Hungary,national,HU,Hungary,130,0
-Hungary,national,HU,Hungary,131,0
-Hungary,national,HU,Hungary,132,0
-Hungary,national,HU,Hungary,133,0
-Hungary,national,HU,Hungary,134,0
+Hungary,national,HU,Hungary,130,0.06618077665763772
+Hungary,national,HU,Hungary,131,0.07814001466377846
+Hungary,national,HU,Hungary,132,0.030401189970503867
+Hungary,national,HU,Hungary,133,0.09101298199937621
+Hungary,national,HU,Hungary,134,0.13454444303342392
 Hungary,national,HU,Hungary,135,0.43360423271954873
 Hungary,national,HU,Hungary,136,0.3763668988780175
 Hungary,national,HU,Hungary,137,0.5019811884424629
@@ -14868,11 +14868,11 @@ Ireland,national,IE,Ireland,127,0.09436760399880209
 Ireland,national,IE,Ireland,128,0.36147159195946627
 Ireland,national,IE,Ireland,129,0.21417694570555942
 Ireland,national,IE,Ireland,13,0.22892809133647762
-Ireland,national,IE,Ireland,130,0
-Ireland,national,IE,Ireland,131,0
-Ireland,national,IE,Ireland,132,0
-Ireland,national,IE,Ireland,133,0
-Ireland,national,IE,Ireland,134,0
+Ireland,national,IE,Ireland,130,0.07447433601771017
+Ireland,national,IE,Ireland,131,0.06092114540376869
+Ireland,national,IE,Ireland,132,0.0572781581774959
+Ireland,national,IE,Ireland,133,0.09809724597700077
+Ireland,national,IE,Ireland,134,0.07038355289451746
 Ireland,national,IE,Ireland,135,0.5529191481444868
 Ireland,national,IE,Ireland,136,0.5077039750745561
 Ireland,national,IE,Ireland,137,0.5518334678366278
@@ -14997,11 +14997,11 @@ Italy,national,IT,Italy,127,0.259852841041391
 Italy,national,IT,Italy,128,0.6711921867569475
 Italy,national,IT,Italy,129,0.36121221908375173
 Italy,national,IT,Italy,13,0.17593015026144102
-Italy,national,IT,Italy,130,0
-Italy,national,IT,Italy,131,0
-Italy,national,IT,Italy,132,0
-Italy,national,IT,Italy,133,0
-Italy,national,IT,Italy,134,0
+Italy,national,IT,Italy,130,0.08158395145421733
+Italy,national,IT,Italy,131,0.06483622776871303
+Italy,national,IT,Italy,132,0.03322136509199807
+Italy,national,IT,Italy,133,0.0485814441590627
+Italy,national,IT,Italy,134,0.05439426127885718
 Italy,national,IT,Italy,135,0.39464994842987833
 Italy,national,IT,Italy,136,0.34897365382885615
 Italy,national,IT,Italy,137,0.4202995210625819
@@ -15126,11 +15126,11 @@ Lithuania,national,LT,Lithuania,127,0.20604387331035554
 Lithuania,national,LT,Lithuania,128,0.561115993999679
 Lithuania,national,LT,Lithuania,129,0.26077419907747623
 Lithuania,national,LT,Lithuania,13,0.19714590452706104
-Lithuania,national,LT,Lithuania,130,0
-Lithuania,national,LT,Lithuania,131,0
-Lithuania,national,LT,Lithuania,132,0
-Lithuania,national,LT,Lithuania,133,0
-Lithuania,national,LT,Lithuania,134,0
+Lithuania,national,LT,Lithuania,130,0.03798147619831813
+Lithuania,national,LT,Lithuania,131,0.016496511939964983
+Lithuania,national,LT,Lithuania,132,0.009546425926907383
+Lithuania,national,LT,Lithuania,133,0.021913211416238264
+Lithuania,national,LT,Lithuania,134,0.09661481621135894
 Lithuania,national,LT,Lithuania,135,0.47857609001821144
 Lithuania,national,LT,Lithuania,136,0.37617441791993056
 Lithuania,national,LT,Lithuania,137,0.5013529304199076
@@ -15255,11 +15255,11 @@ Luxembourg,national,LU,Luxembourg,127,0.05140961857379768
 Luxembourg,national,LU,Luxembourg,128,0.2959866220735786
 Luxembourg,national,LU,Luxembourg,129,0.1760797342192691
 Luxembourg,national,LU,Luxembourg,13,0.21739130434782608
-Luxembourg,national,LU,Luxembourg,130,0
-Luxembourg,national,LU,Luxembourg,131,0
-Luxembourg,national,LU,Luxembourg,132,0
-Luxembourg,national,LU,Luxembourg,133,0
-Luxembourg,national,LU,Luxembourg,134,0
+Luxembourg,national,LU,Luxembourg,130,0.01904761904761905
+Luxembourg,national,LU,Luxembourg,131,0.012903225806451613
+Luxembourg,national,LU,Luxembourg,132,0.014577259475218658
+Luxembourg,national,LU,Luxembourg,133,0.043010752688172046
+Luxembourg,national,LU,Luxembourg,134,0.016317016317016316
 Luxembourg,national,LU,Luxembourg,135,0.5463576158940397
 Luxembourg,national,LU,Luxembourg,136,0.5640599001663894
 Luxembourg,national,LU,Luxembourg,137,0.5548172757475083
@@ -15384,11 +15384,11 @@ Malta,national,MT,Malta,127,0.35
 Malta,national,MT,Malta,128,0.576
 Malta,national,MT,Malta,129,0.164
 Malta,national,MT,Malta,13,0.15139442231075698
-Malta,national,MT,Malta,130,0
-Malta,national,MT,Malta,131,0
-Malta,national,MT,Malta,132,0
-Malta,national,MT,Malta,133,0
-Malta,national,MT,Malta,134,0
+Malta,national,MT,Malta,130,0.07766990291262135
+Malta,national,MT,Malta,131,0.05194805194805195
+Malta,national,MT,Malta,132,0.06896551724137931
+Malta,national,MT,Malta,133,0.05555555555555555
+Malta,national,MT,Malta,134,0.06981981981981981
 Malta,national,MT,Malta,135,0.5261044176706827
 Malta,national,MT,Malta,136,0.6192384769539078
 Malta,national,MT,Malta,137,0.5342741935483871
@@ -15513,11 +15513,11 @@ Netherlands,national,NL,Netherlands,127,0.10473005627495964
 Netherlands,national,NL,Netherlands,128,0.23392409469147563
 Netherlands,national,NL,Netherlands,129,0.18516870767121274
 Netherlands,national,NL,Netherlands,13,0.33729547861893583
-Netherlands,national,NL,Netherlands,130,0
-Netherlands,national,NL,Netherlands,131,0
-Netherlands,national,NL,Netherlands,132,0
-Netherlands,national,NL,Netherlands,133,0
-Netherlands,national,NL,Netherlands,134,0
+Netherlands,national,NL,Netherlands,130,0.10290087692487969
+Netherlands,national,NL,Netherlands,131,0.052415748590196064
+Netherlands,national,NL,Netherlands,132,0.06199576622550185
+Netherlands,national,NL,Netherlands,133,0.10689094036407878
+Netherlands,national,NL,Netherlands,134,0.024685658902829782
 Netherlands,national,NL,Netherlands,135,0.6000843189618734
 Netherlands,national,NL,Netherlands,136,0.5821737573997812
 Netherlands,national,NL,Netherlands,137,0.6614804412983923
@@ -15642,11 +15642,11 @@ Portugal,national,PT,Portugal,127,0.1700829674164955
 Portugal,national,PT,Portugal,128,0.4648360241532865
 Portugal,national,PT,Portugal,129,0.25627502586965567
 Portugal,national,PT,Portugal,13,0.3324786709386645
-Portugal,national,PT,Portugal,130,0
-Portugal,national,PT,Portugal,131,0
-Portugal,national,PT,Portugal,132,0
-Portugal,national,PT,Portugal,133,0
-Portugal,national,PT,Portugal,134,0
+Portugal,national,PT,Portugal,130,0.0751710123568245
+Portugal,national,PT,Portugal,131,0.0020233736588086662
+Portugal,national,PT,Portugal,132,0.024060321290672586
+Portugal,national,PT,Portugal,133,0.002045418655228068
+Portugal,national,PT,Portugal,134,0.010545649046795348
 Portugal,national,PT,Portugal,135,0.4705633369852886
 Portugal,national,PT,Portugal,136,0.4133934327907341
 Portugal,national,PT,Portugal,137,0.37611774636653
@@ -15771,11 +15771,11 @@ Slovakia,national,SK,Slovakia,127,0.16711539812339518
 Slovakia,national,SK,Slovakia,128,0.6247393025640668
 Slovakia,national,SK,Slovakia,129,0.3950625326784071
 Slovakia,national,SK,Slovakia,13,0.12581295647159182
-Slovakia,national,SK,Slovakia,130,0
-Slovakia,national,SK,Slovakia,131,0
-Slovakia,national,SK,Slovakia,132,0
-Slovakia,national,SK,Slovakia,133,0
-Slovakia,national,SK,Slovakia,134,0
+Slovakia,national,SK,Slovakia,130,0.10712257916786364
+Slovakia,national,SK,Slovakia,131,0.10764855705994977
+Slovakia,national,SK,Slovakia,132,0.059289050682911064
+Slovakia,national,SK,Slovakia,133,0.15954066011528573
+Slovakia,national,SK,Slovakia,134,0.16869979359981385
 Slovakia,national,SK,Slovakia,135,0.4526118549401068
 Slovakia,national,SK,Slovakia,136,0.38497589962919226
 Slovakia,national,SK,Slovakia,137,0.5630309171044242
@@ -15900,11 +15900,11 @@ Slovenia,national,SI,Slovenia,127,0.13025725046862385
 Slovenia,national,SI,Slovenia,128,0.6348130706867157
 Slovenia,national,SI,Slovenia,129,0.39469781774540036
 Slovenia,national,SI,Slovenia,13,0.11440486436918265
-Slovenia,national,SI,Slovenia,130,0
-Slovenia,national,SI,Slovenia,131,0
-Slovenia,national,SI,Slovenia,132,0
-Slovenia,national,SI,Slovenia,133,0
-Slovenia,national,SI,Slovenia,134,0
+Slovenia,national,SI,Slovenia,130,0.16711726699367285
+Slovenia,national,SI,Slovenia,131,0.17607106385914892
+Slovenia,national,SI,Slovenia,132,0.15550269029058547
+Slovenia,national,SI,Slovenia,133,0.19296878006008755
+Slovenia,national,SI,Slovenia,134,0.22532985295440802
 Slovenia,national,SI,Slovenia,135,0.45391674738723575
 Slovenia,national,SI,Slovenia,136,0.3470096335353845
 Slovenia,national,SI,Slovenia,137,0.5351355112234439
@@ -16029,11 +16029,11 @@ Spain,national,ES,Spain,127,0.17660161502629845
 Spain,national,ES,Spain,128,0.6238682056252967
 Spain,national,ES,Spain,129,0.3098900487627838
 Spain,national,ES,Spain,13,0.14272615151082807
-Spain,national,ES,Spain,130,0
-Spain,national,ES,Spain,131,0
-Spain,national,ES,Spain,132,0
-Spain,national,ES,Spain,133,0
-Spain,national,ES,Spain,134,0
+Spain,national,ES,Spain,130,0.09959947603434909
+Spain,national,ES,Spain,131,0.07152833649293229
+Spain,national,ES,Spain,132,0.06084432721730149
+Spain,national,ES,Spain,133,0.134711280310812
+Spain,national,ES,Spain,134,0.043541578428348125
 Spain,national,ES,Spain,135,0.47974294755067015
 Spain,national,ES,Spain,136,0.39424876125677694
 Spain,national,ES,Spain,137,0.42199410026130424
@@ -16158,11 +16158,11 @@ Sweden,national,SE,Sweden,127,0.05452049895433091
 Sweden,national,SE,Sweden,128,0.21478232225542107
 Sweden,national,SE,Sweden,129,0.14994103105350604
 Sweden,national,SE,Sweden,13,0.15269992599896934
-Sweden,national,SE,Sweden,130,0
-Sweden,national,SE,Sweden,131,0
-Sweden,national,SE,Sweden,132,0
-Sweden,national,SE,Sweden,133,0
-Sweden,national,SE,Sweden,134,0
+Sweden,national,SE,Sweden,130,0.06149306930479821
+Sweden,national,SE,Sweden,131,0.16206550085446053
+Sweden,national,SE,Sweden,132,0.13621676345757427
+Sweden,national,SE,Sweden,133,0.2270961128350076
+Sweden,national,SE,Sweden,134,0.2808521354332193
 Sweden,national,SE,Sweden,135,0.6119908371892284
 Sweden,national,SE,Sweden,136,0.5571712170958922
 Sweden,national,SE,Sweden,137,0.5922844045279357
@@ -16287,11 +16287,11 @@ European Union,eu,EU,European Union,127,0.1549350496832588
 European Union,eu,EU,European Union,128,0.5236538131049389
 European Union,eu,EU,European Union,129,0.2896039119238834
 European Union,eu,EU,European Union,13,0.19433903721527357
-European Union,eu,EU,European Union,130,0
-European Union,eu,EU,European Union,131,0
-European Union,eu,EU,European Union,132,0
-European Union,eu,EU,European Union,133,0
-European Union,eu,EU,European Union,134,0
+European Union,eu,EU,European Union,130,0.09044031728627061
+European Union,eu,EU,European Union,131,0.06724405472812679
+European Union,eu,EU,European Union,132,0.054627023536951085
+European Union,eu,EU,European Union,133,0.08651727576692464
+European Union,eu,EU,European Union,134,0.08878719452711925
 European Union,eu,EU,European Union,135,0.5022113425753627
 European Union,eu,EU,European Union,136,0.45389991936541046
 European Union,eu,EU,European Union,137,0.5248372997707419
