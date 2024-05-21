@@ -36,6 +36,10 @@ master_data <- read_dta(
     "EU-S Data/eu-gpp/1. Data/3. Merge/EU_GPP_2024.dta"
   )
 )
+# master_data <- master_data %>%
+#   left_join(
+#     add_A2J(master_data)
+#   )
 
 # Loading outline
 outline <- read.xlsx(
@@ -97,6 +101,8 @@ data_points_df <- bind_rows(
     }
   )
 )
+
+data_points_df <- getAvgData()
 write_csv(data_points_df, "data_points.csv")
 
 

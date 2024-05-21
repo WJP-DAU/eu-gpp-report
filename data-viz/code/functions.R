@@ -15,6 +15,14 @@
 ##
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+# List of legal problems
+legalProblems <- c(
+  "A1", "A2", "A3", "B1", "B2", "B3", "B4", "C1", "C2", "C3", "C4", "D1", "D2", "D3", "D4", "D5", "D6", "E1", 
+  "E2", "E3", "F1", "F2", "G1", "G2", "G3", "H1", "H2", "H3", "I1", "J1", "J2", "J3", "J4", "K1", "K2", "K3", 
+  "L1", "L2"
+)
+
+
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##
 ## 1.  General functions                                                                                    ----
@@ -85,6 +93,49 @@ callVisualizer <- function(chart_n) {
   
 }
 
+getAvgData <- function(){
+  
+  data_wght <- data_points_df %>%
+    left_join(region_names) %>%
+    mutate(
+      weighted_value = value2plot*pop_weight,
+      level = "regional"
+    )
+  
+  country_avg <- data_wght %>%
+    group_by(country_name_ltn, chart) %>%
+    summarise(
+      nuts_id    = first(nuts_id),
+      value2plot = sum(weighted_value, na.rm = T) 
+    ) %>%
+    mutate(
+      nuts_id   = substr(nuts_id, 1, 2),
+      nameSHORT = country_name_ltn,
+      level     = "national",
+      weighted_value = value2plot  # Simple average for the European Union value. No special weights.
+    )
+  
+  eu_avg <- country_avg %>%
+    group_by(chart) %>%
+    summarise(
+      value2plot       = mean(weighted_value, na.rm = T),
+      country_name_ltn = "European Union",
+      nuts_id          = "EU",
+      nameSHORT        = "European Union",
+      level            = "eu"
+    )
+  
+  data_out <- data_wght %>%
+    select(country_name_ltn, level, nuts_id, nameSHORT, chart, value2plot) %>%
+    bind_rows(
+      country_avg %>% select(-weighted_value), 
+      eu_avg
+    )
+  
+  return(data_out)
+  
+}
+
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##
 ## 2.  Wrangling function                                                                                   ----
@@ -118,37 +169,53 @@ wrangleData <- function(chart_n){
                    "Information Requests")) {
     trfunc <- function(value) {
       case_when(
-        value <= 2 ~ 1,
-        value <= 4 ~ 0
+        value <= 2  ~ 1,
+        value <= 4  ~ 0,
+        value == 98 ~ 0
       )
     }
   }
   if (topic %in% c("Corruption Change")) {
     trfunc <- function(value) {
       case_when(
-        value <= 2 ~ 1,
-        value <= 5 ~ 0
+        value <= 2  ~ 1,
+        value <= 5  ~ 0,
+        value == 98 ~ 0
       )
     }
   }
-  if (topic %in% c("Corruption Perceptions",
-                   "Bribe Victimization")) {
+  if (topic %in% c("Corruption Perceptions")) {
     trfunc <- function(value) {
       case_when(
-        value <= 2 ~ 0,
-        value <= 4 ~ 1
+        value <= 2  ~ 0,
+        value <= 4  ~ 1,
+        value == 98 ~ 0
       )
     }
   }
   if (topic %in% c("Security Violence",
+                   "Bribe Victimization",
                    "Civic Participation A Civic Participation B",
                    "Discrimination")) {
     trfunc <- function(value) {
       case_when(
-        value == 1 ~ 1,
-        value == 2 ~ 0
+        value == 1  ~ 1,
+        value == 2  ~ 0,
+        value == 98 ~ 0
       )
     }
+  }
+  if (topic %in% c("Problem Selection", 
+                   "Problem Resolution", 
+                   "Problem Description", 
+                   "Problem Evaluation",
+                   "Demographics")){
+    
+    if (id == "AJP_*_bin"){
+      
+      
+    }
+    
   }
   
   # Creating data2plot
@@ -170,5 +237,105 @@ wrangleData <- function(chart_n){
   
 }
 
+## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+##
+## 3.  Special Wrangling functions (Access to Justice)                                                                         ----
+##
+## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+add_A2J <- function(df){
+  
+  # Defining problem variables
+  targetVars <- paste0("AJP_", legalProblems, "_bin")
+  targetSevs <- paste0("AJP_", legalProblems, "_sev")
+  
+  # Extracting severity of problem selected
+  selec_sev <- df %>%
+    pivot_longer(
+      !c(country_year_id, AJP_problem), 
+      names_to = c("set", ".value"), 
+      names_pattern = "AJP_(.*)_(.*)"
+    ) %>%
+    mutate(
+      sev = if_else(AJP_problem == set, sev, NA_real_)
+    ) %>%
+    group_by(country_year_id) %>%
+    summarise(
+      AJP_problem = first(AJP_problem),
+      sev_problem_selected = sum(sev, na.rm = T)
+    ) %>%
+    mutate(
+      sev_problem_selected = if_else(
+        AJP_problem == "", 
+        NA_real_, 
+        sev_problem_selected 
+      )
+    ) %>%
+    select(-AJP_problem)
 
-
+  # Estimating problem prevalence 
+  probPrev <- purrr::reduce(
+    list(
+      
+      # Data 1: incidence
+      df %>%
+        select(country_year_id, all_of(targetVars)) %>%
+        pivot_longer(
+          !country_year_id,
+          names_to  = "problem",
+          values_to = "answer"
+        ) %>%
+        mutate(
+          problem = str_remove_all(problem, "AJP|_|bin")
+        ),
+      
+      # Data 2: severity
+      df %>%
+        select(country_year_id, all_of(targetSevs)) %>%
+        pivot_longer(
+          !country_year_id,
+          names_to  = "problem",
+          values_to = "severity"
+        ) %>%
+        mutate(
+          problem = str_remove_all(problem, "AJP|_|sev")
+        )
+    ),
+    left_join
+  ) %>%
+    mutate(
+      prevalence1 = case_when(
+        answer == 1 ~ 1,
+        answer == 2 ~ 0
+      ),
+      prevalence2 = case_when(
+        answer == 1 & severity >= 4 ~ 1,
+        answer == 1 & severity  < 4 ~ 0,
+        answer == 2 ~ 0
+      )
+    ) %>%
+    group_by(country_year_id) %>%
+    summarise(
+      across(
+        starts_with("prevalence"),
+        \(x) sum(x, na.rm = T)
+      )
+    ) %>%
+    mutate(
+      across(
+        starts_with("prevalence"),
+        \(x) if_else(x > 0, 1, 0)
+      )
+    )
+  
+  # A2DRM <- df
+  
+  # Reducing data into a single data frame
+  output <- purrr::reduce(
+    c(probPrev)
+  )
+  
+  return(output)
+  
+  
+  
+}
