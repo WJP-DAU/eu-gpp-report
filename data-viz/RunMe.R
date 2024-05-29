@@ -81,9 +81,9 @@ region_names <- read.xlsx(
 
 # Creating a named list to loop over
 chart_list <- c(1:17, 30:111, 113:142)
-names(chart_list) <- paste("Chart",chart_list)
+names(chart_list) <- paste("Chart", chart_list)
 
-# Applying the wrangling function across charts
+#Applying the wrangling function across charts
 data_points <- lapply(
   chart_list,
   wrangleData
@@ -102,8 +102,17 @@ data_points_df <- bind_rows(
   )
 )
 
-data_points_df <- getAvgData()
+# regional data
+data_points_df_regional <- data_points_df %>% filter(demographic == "Total")
+data_points_df_regional <- getAvgData()
+
+
+# csv with totals and demographic breakdowns
 write_csv(data_points_df, "data_points.csv")
+
+
+# saving region-level data separately
+write_csv(data_points_df_regional, "data_points_regional.csv")
 
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -23,6 +23,8 @@ legalProblems <- c(
 )
 
 
+
+
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##
 ## 1.  General functions                                                                                    ----
@@ -145,6 +147,7 @@ getAvgData <- function(){
 wrangleData <- function(chart_n){
   
   # Getting variable info
+  
   id <- outline %>%
     filter(n == chart_n) %>%
     pull(id)
@@ -205,12 +208,12 @@ wrangleData <- function(chart_n){
       )
     }
   }
-  if (topic %in% c("Problem Selection", 
+  if (topic %in% c("Problem Selection", # % yes to >= 1 question
                    "Problem Resolution", 
                    "Problem Description", 
                    "Problem Evaluation",
                    "Demographics")){
-    
+
     if (id == "AJP_*_bin"){
       
       
@@ -218,24 +221,73 @@ wrangleData <- function(chart_n){
     
   }
   
-  # Creating data2plot
-  data2plot <- master_data %>%
-    select(country_name_ltn, nuts_id, all_of(id)) %>%
-    mutate(
-      across(
-        all_of(id),
-        ~trfunc(.x)
-      )
-    ) %>%
-    group_by(country_name_ltn, nuts_id) %>%
-    summarise(
-      value2plot = mean(c_across(all_of(id)), na.rm = T),
-      .groups = "keep"
+  # Getting the data to plot
+  
+  # create demographics
+  master_data <- master_data %>%
+    mutate(age_bin = case_when(
+      age >= 18 & age <= 24 ~ "18-24",
+      age >= 25 & age <= 34 ~ "25-34",
+      age >= 35 & age <= 44 ~ "35-44",
+      age >= 45 & age <= 54 ~ "45-54",
+      age >= 55 & age <= 64 ~ "55-64",
+      age >= 65 ~ "65+"
+    ),
+         gender_text = case_when(
+           gend == 1 ~ "Male",
+           gend == 2 ~ "Female"
+         ),
+    urban_text = ifelse(urban == 1, "Urban", "Rural"),
+    income_q = case_when(
+      income_quintile == 1 ~ "Income Quintile 1",
+      income_quintile == 2 ~ "Income Quintile 2",
+      income_quintile == 3 ~ "Income Quintile 3",
+      income_quintile == 4 ~ "Income Quintile 4",
+      income_quintile == 5 ~ "Income Quintile 5"
+    )
     )
   
-  return(data2plot)
+  
+  
+  # list of grouping variables (including dem categories)
+  grouping_vars <- list(
+    "Total"   = c("country_name_ltn", "nuts_id"),
+    "Income"  = c("country_name_ltn", "nuts_id", "income_q"),
+    "Gender"  = c("country_name_ltn", "nuts_id", "gender_text"),
+    "Age Bin" = c("country_name_ltn", "nuts_id", "age_bin"),
+    "Urban"   = c("country_name_ltn", "nuts_id", "urban_text")
+  )
+  
+  
+  # For each element in grouping vars, grab those variables
+  # from the master data, apply transformation function, and
+  # then group by the respective collection of vars and calculate
+  # the mean value for that group. 
+  # This should create a data2plot for each element in 
+  # grouping_vars. 
+  
+data2plot_list <- imap(grouping_vars, function(vars, demograph) {
+    data2plot <- master_data %>%
+      select(all_of(vars), all_of(id)) %>%
+      mutate(across(all_of(id), ~trfunc(.x))) %>%
+      group_by(across(all_of(vars))) %>%
+      summarise(
+        value2plot = mean(c_across(all_of(id)), na.rm = TRUE),
+        .groups = "keep")%>%
+      mutate(demographic = ifelse(demograph == "Total", "Total", as.character(get(vars[3])))) #make this the value of element3
+
+    return(data2plot)
+  })
+  
+  combined_data2plot <- bind_rows(data2plot_list) %>%
+  select(-income_q, -gender_text, -age_bin, -urban_text)
+
+  
+  return(combined_data2plot)
   
 }
+  
+  
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##
@@ -339,3 +391,4 @@ add_A2J <- function(df){
   
   
 }
+

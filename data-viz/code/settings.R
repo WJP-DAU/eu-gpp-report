@@ -54,7 +54,11 @@ if (Sys.info()["user"] == "ctoruno") {
 } else if (Sys.info()["user"]=="Dhabiby"){
   path2EU <- "/Users/Dhabiby/World Justice Project/Research - EU Subnational"
   path2DA <- "/Users/Dhabiby/World Justice Project/Research - Data Analytics"
+} else if(Sys.info()["user"] == "icoddington"){
+  path2EU <- "/Users/icoddington/OneDrive - World Justice Project/EU Subnational"
+  path2DA <- "/Users/icoddington/OneDrive - World Justice Project/Data Analytics"
 }
+
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##
