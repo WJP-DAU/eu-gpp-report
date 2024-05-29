@@ -102,17 +102,19 @@ data_points_df <- bind_rows(
   )
 )
 
+# csv with totals and demographic breakdowns
+write_csv(data_points_df, "data_points_all.csv")
+
+
+
 # regional data
 data_points_df_regional <- data_points_df %>% filter(demographic == "Total")
 data_points_df_regional <- getAvgData()
 
 
-# csv with totals and demographic breakdowns
-write_csv(data_points_df, "data_points.csv")
-
 
 # saving region-level data separately
-write_csv(data_points_df_regional, "data_points_regional.csv")
+write_csv(data_points_df_regional, "data_points.csv")
 
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -122,8 +124,8 @@ write_csv(data_points_df_regional, "data_points_regional.csv")
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Calling the visualizer for each chart
-lapply(
-  chart_list,
-  callVisualizer
-)
+# lapply(
+#   chart_list,
+#   callVisualizer
+# )
 

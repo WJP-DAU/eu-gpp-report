@@ -225,26 +225,27 @@ wrangleData <- function(chart_n){
   
   # create demographics
   master_data <- master_data %>%
-    mutate(age_bin = case_when(
-      age >= 18 & age <= 24 ~ "18-24",
-      age >= 25 & age <= 34 ~ "25-34",
-      age >= 35 & age <= 44 ~ "35-44",
-      age >= 45 & age <= 54 ~ "45-54",
-      age >= 55 & age <= 64 ~ "55-64",
-      age >= 65 ~ "65+"
-    ),
-         gender_text = case_when(
-           gend == 1 ~ "Male",
-           gend == 2 ~ "Female"
-         ),
-    urban_text = ifelse(urban == 1, "Urban", "Rural"),
-    income_q = case_when(
-      income_quintile == 1 ~ "Income Quintile 1",
-      income_quintile == 2 ~ "Income Quintile 2",
-      income_quintile == 3 ~ "Income Quintile 3",
-      income_quintile == 4 ~ "Income Quintile 4",
-      income_quintile == 5 ~ "Income Quintile 5"
-    )
+    mutate(
+      age_bin = case_when(
+        age >= 18 & age <= 24 ~ "18-24",
+        age >= 25 & age <= 34 ~ "25-34",
+        age >= 35 & age <= 44 ~ "35-44",
+        age >= 45 & age <= 54 ~ "45-54",
+        age >= 55 & age <= 64 ~ "55-64",
+        age >= 65 ~ "65+"
+      ),
+      gender_text = case_when(
+        gend == 1 ~ "Male",
+        gend == 2 ~ "Female"
+      ),
+      urban_text = if_else(urban == 1, "Urban", "Rural"),
+      income_q = case_when(
+        income_quintile == 1 ~ "Income Quintile 1",
+        income_quintile == 2 ~ "Income Quintile 2",
+        income_quintile == 3 ~ "Income Quintile 3",
+        income_quintile == 4 ~ "Income Quintile 4",
+        income_quintile == 5 ~ "Income Quintile 5"
+      )
     )
   
   
@@ -259,21 +260,15 @@ wrangleData <- function(chart_n){
   )
   
   
-  # For each element in grouping vars, grab those variables
-  # from the master data, apply transformation function, and
-  # then group by the respective collection of vars and calculate
-  # the mean value for that group. 
-  # This should create a data2plot for each element in 
-  # grouping_vars. 
   
 data2plot_list <- imap(grouping_vars, function(vars, demograph) {
     data2plot <- master_data %>%
-      select(all_of(vars), all_of(id)) %>%
-      mutate(across(all_of(id), ~trfunc(.x))) %>%
+      select(all_of(vars), target = all_of(id)) %>%
+      mutate(across(target, ~trfunc(.x))) %>%
       group_by(across(all_of(vars))) %>%
       summarise(
-        value2plot = mean(c_across(all_of(id)), na.rm = TRUE),
-        .groups = "keep")%>%
+        value2plot = mean(target, na.rm = T),
+        .groups = "keep") %>%
       mutate(demographic = ifelse(demograph == "Total", "Total", as.character(get(vars[3])))) #make this the value of element3
 
     return(data2plot)
