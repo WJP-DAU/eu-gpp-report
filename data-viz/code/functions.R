@@ -97,7 +97,7 @@ callVisualizer <- function(chart_n) {
 
 getAvgData <- function(){
   
-  data_wght <- data_points_df %>%
+  data_wght <- data_points_df_regional %>%
     left_join(region_names) %>%
     mutate(
       weighted_value = value2plot*pop_weight,
