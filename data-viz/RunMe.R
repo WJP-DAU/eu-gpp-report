@@ -89,7 +89,7 @@ data_points <- lapply(
   wrangleData
 )
 
-# Collapsing and saving data points data
+# Collapsing data points
 data_points_df <- bind_rows(
   imap(
     data_points,
@@ -102,18 +102,12 @@ data_points_df <- bind_rows(
   )
 )
 
-# csv with totals and demographic breakdowns
-write_csv(data_points_df, "data_points_all.csv")
-
-
-
-# regional data
+# Processing data
 data_points_df_regional <- data_points_df %>% filter(demographic == "Total")
 data_points_df_regional <- getAvgData()
 
-
-
-# saving region-level data separately
+# saving data
+write_csv(data_points_df, "data_points_all.csv")
 write_csv(data_points_df_regional, "data_points.csv")
 
 
